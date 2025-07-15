@@ -1,0 +1,3302 @@
+[
+  {
+    "id": 1,
+    "question": "Which Java feature allows multiple methods with the same name but different parameters?",
+    "options": [
+      "Encapsulation",
+      "Method Overriding",
+      "Abstraction",
+      "Method Overloading"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 2,
+    "question": "Which interface is used for marker purpose in Java?",
+    "options": [
+      "Cloneable",
+      "Serializable",
+      "Runnable",
+      "Comparable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 3,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially?",
+    "options": [
+      "Factory Pattern",
+      "Decorator Pattern",
+      "Iterator Pattern",
+      "Observer Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 4,
+    "question": "Which Java keyword is used to synchronize code blocks?",
+    "options": [
+      "synchronized",
+      "final",
+      "transient",
+      "volatile"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 5,
+    "question": "What is the purpose of the transient keyword?",
+    "options": [
+      "Mark as constant",
+      "Exclude field from serialization",
+      "Make method final",
+      "Prevent inheritance"
+    ],
+    "answer": "Exclude field from serialization"
+  },
+  {
+    "id": 6,
+    "question": "Which API is used for reading and writing XML documents in Java?",
+    "options": [
+      "JNDI",
+      "JAXP",
+      "JAXB",
+      "JPA"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 7,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted?",
+    "options": [
+      "InterruptedException",
+      "TimeoutException",
+      "ExecutionException",
+      "IOException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 8,
+    "question": "Which type of class cannot be instantiated?",
+    "options": [
+      "Static class",
+      "Final class",
+      "Abstract class",
+      "Enum"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 9,
+    "question": "Which Java feature ensures that only one instance of a class is created?",
+    "options": [
+      "Factory Pattern",
+      "Singleton Pattern",
+      "Builder Pattern",
+      "Prototype Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 10,
+    "question": "What does the volatile keyword guarantee?",
+    "options": [
+      "Lazy initialization",
+      "Visibility of changes across threads",
+      "Immutability",
+      "Serialization"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 11,
+    "question": "What does the volatile keyword guarantee? (variant 11)",
+    "options": [
+      "Immutability",
+      "Visibility of changes across threads",
+      "Lazy initialization",
+      "Serialization"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 12,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 12)",
+    "options": [
+      "Prototype Pattern",
+      "Factory Pattern",
+      "Builder Pattern",
+      "Singleton Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 13,
+    "question": "What does the volatile keyword guarantee? (variant 13)",
+    "options": [
+      "Visibility of changes across threads",
+      "Immutability",
+      "Lazy initialization",
+      "Serialization"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 14,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 14)",
+    "options": [
+      "Singleton Pattern",
+      "Builder Pattern",
+      "Prototype Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 15,
+    "question": "Which Java feature allows multiple methods with the same name but different parameters? (variant 15)",
+    "options": [
+      "Method Overloading",
+      "Abstraction",
+      "Method Overriding",
+      "Encapsulation"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 16,
+    "question": "Which type of class cannot be instantiated? (variant 16)",
+    "options": [
+      "Final class",
+      "Enum",
+      "Static class",
+      "Abstract class"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 17,
+    "question": "Which Java feature allows multiple methods with the same name but different parameters? (variant 17)",
+    "options": [
+      "Method Overriding",
+      "Method Overloading",
+      "Abstraction",
+      "Encapsulation"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 18,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 18)",
+    "options": [
+      "JPA",
+      "JAXP",
+      "JAXB",
+      "JNDI"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 19,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 19)",
+    "options": [
+      "Prototype Pattern",
+      "Factory Pattern",
+      "Singleton Pattern",
+      "Builder Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 20,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 20)",
+    "options": [
+      "Iterator Pattern",
+      "Observer Pattern",
+      "Decorator Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 21,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 21)",
+    "options": [
+      "Factory Pattern",
+      "Prototype Pattern",
+      "Singleton Pattern",
+      "Builder Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 22,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 22)",
+    "options": [
+      "IOException",
+      "InterruptedException",
+      "TimeoutException",
+      "ExecutionException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 23,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 23)",
+    "options": [
+      "InterruptedException",
+      "TimeoutException",
+      "ExecutionException",
+      "IOException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 24,
+    "question": "Which Java feature allows multiple methods with the same name but different parameters? (variant 24)",
+    "options": [
+      "Abstraction",
+      "Encapsulation",
+      "Method Overloading",
+      "Method Overriding"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 25,
+    "question": "Which Java feature allows multiple methods with the same name but different parameters? (variant 25)",
+    "options": [
+      "Method Overloading",
+      "Abstraction",
+      "Method Overriding",
+      "Encapsulation"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 26,
+    "question": "Which Java feature allows multiple methods with the same name but different parameters? (variant 26)",
+    "options": [
+      "Encapsulation",
+      "Method Overloading",
+      "Abstraction",
+      "Method Overriding"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 27,
+    "question": "Which interface is used for marker purpose in Java? (variant 27)",
+    "options": [
+      "Serializable",
+      "Comparable",
+      "Cloneable",
+      "Runnable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 28,
+    "question": "What does the volatile keyword guarantee? (variant 28)",
+    "options": [
+      "Serialization",
+      "Immutability",
+      "Visibility of changes across threads",
+      "Lazy initialization"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 29,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 29)",
+    "options": [
+      "JAXP",
+      "JAXB",
+      "JNDI",
+      "JPA"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 30,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 30)",
+    "options": [
+      "JAXP",
+      "JNDI",
+      "JAXB",
+      "JPA"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 31,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 31)",
+    "options": [
+      "transient",
+      "synchronized",
+      "volatile",
+      "final"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 32,
+    "question": "What does the volatile keyword guarantee? (variant 32)",
+    "options": [
+      "Immutability",
+      "Lazy initialization",
+      "Serialization",
+      "Visibility of changes across threads"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 33,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 33)",
+    "options": [
+      "ExecutionException",
+      "TimeoutException",
+      "InterruptedException",
+      "IOException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 34,
+    "question": "Which Java feature allows multiple methods with the same name but different parameters? (variant 34)",
+    "options": [
+      "Abstraction",
+      "Method Overloading",
+      "Method Overriding",
+      "Encapsulation"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 35,
+    "question": "Which interface is used for marker purpose in Java? (variant 35)",
+    "options": [
+      "Serializable",
+      "Comparable",
+      "Runnable",
+      "Cloneable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 36,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 36)",
+    "options": [
+      "ExecutionException",
+      "IOException",
+      "TimeoutException",
+      "InterruptedException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 37,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 37)",
+    "options": [
+      "Factory Pattern",
+      "Observer Pattern",
+      "Decorator Pattern",
+      "Iterator Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 38,
+    "question": "Which interface is used for marker purpose in Java? (variant 38)",
+    "options": [
+      "Runnable",
+      "Cloneable",
+      "Serializable",
+      "Comparable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 39,
+    "question": "Which interface is used for marker purpose in Java? (variant 39)",
+    "options": [
+      "Serializable",
+      "Cloneable",
+      "Comparable",
+      "Runnable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 40,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 40)",
+    "options": [
+      "Factory Pattern",
+      "Builder Pattern",
+      "Prototype Pattern",
+      "Singleton Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 41,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 41)",
+    "options": [
+      "JAXB",
+      "JAXP",
+      "JPA",
+      "JNDI"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 42,
+    "question": "Which interface is used for marker purpose in Java? (variant 42)",
+    "options": [
+      "Runnable",
+      "Comparable",
+      "Serializable",
+      "Cloneable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 43,
+    "question": "Which type of class cannot be instantiated? (variant 43)",
+    "options": [
+      "Abstract class",
+      "Static class",
+      "Final class",
+      "Enum"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 44,
+    "question": "Which type of class cannot be instantiated? (variant 44)",
+    "options": [
+      "Enum",
+      "Final class",
+      "Abstract class",
+      "Static class"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 45,
+    "question": "Which Java feature allows multiple methods with the same name but different parameters? (variant 45)",
+    "options": [
+      "Encapsulation",
+      "Abstraction",
+      "Method Overriding",
+      "Method Overloading"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 46,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 46)",
+    "options": [
+      "Factory Pattern",
+      "Prototype Pattern",
+      "Builder Pattern",
+      "Singleton Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 47,
+    "question": "Which type of class cannot be instantiated? (variant 47)",
+    "options": [
+      "Abstract class",
+      "Static class",
+      "Enum",
+      "Final class"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 48,
+    "question": "Which interface is used for marker purpose in Java? (variant 48)",
+    "options": [
+      "Runnable",
+      "Serializable",
+      "Comparable",
+      "Cloneable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 49,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 49)",
+    "options": [
+      "TimeoutException",
+      "ExecutionException",
+      "InterruptedException",
+      "IOException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 50,
+    "question": "Which type of class cannot be instantiated? (variant 50)",
+    "options": [
+      "Enum",
+      "Abstract class",
+      "Static class",
+      "Final class"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 51,
+    "question": "Which type of class cannot be instantiated? (variant 51)",
+    "options": [
+      "Abstract class",
+      "Static class",
+      "Enum",
+      "Final class"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 52,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 52)",
+    "options": [
+      "Factory Pattern",
+      "Observer Pattern",
+      "Decorator Pattern",
+      "Iterator Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 53,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 53)",
+    "options": [
+      "JAXP",
+      "JAXB",
+      "JNDI",
+      "JPA"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 54,
+    "question": "Which Java feature allows multiple methods with the same name but different parameters? (variant 54)",
+    "options": [
+      "Encapsulation",
+      "Abstraction",
+      "Method Overloading",
+      "Method Overriding"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 55,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 55)",
+    "options": [
+      "Factory Pattern",
+      "Observer Pattern",
+      "Iterator Pattern",
+      "Decorator Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 56,
+    "question": "Which interface is used for marker purpose in Java? (variant 56)",
+    "options": [
+      "Runnable",
+      "Serializable",
+      "Comparable",
+      "Cloneable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 57,
+    "question": "Which Java feature allows multiple methods with the same name but different parameters? (variant 57)",
+    "options": [
+      "Abstraction",
+      "Method Overloading",
+      "Method Overriding",
+      "Encapsulation"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 58,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 58)",
+    "options": [
+      "Builder Pattern",
+      "Prototype Pattern",
+      "Singleton Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 59,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 59)",
+    "options": [
+      "volatile",
+      "transient",
+      "synchronized",
+      "final"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 60,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 60)",
+    "options": [
+      "TimeoutException",
+      "InterruptedException",
+      "ExecutionException",
+      "IOException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 61,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 61)",
+    "options": [
+      "Factory Pattern",
+      "Prototype Pattern",
+      "Builder Pattern",
+      "Singleton Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 62,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 62)",
+    "options": [
+      "JNDI",
+      "JAXP",
+      "JPA",
+      "JAXB"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 63,
+    "question": "What does the volatile keyword guarantee? (variant 63)",
+    "options": [
+      "Immutability",
+      "Serialization",
+      "Lazy initialization",
+      "Visibility of changes across threads"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 64,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 64)",
+    "options": [
+      "JNDI",
+      "JPA",
+      "JAXP",
+      "JAXB"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 65,
+    "question": "What is the purpose of the transient keyword? (variant 65)",
+    "options": [
+      "Exclude field from serialization",
+      "Make method final",
+      "Mark as constant",
+      "Prevent inheritance"
+    ],
+    "answer": "Exclude field from serialization"
+  },
+  {
+    "id": 66,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 66)",
+    "options": [
+      "JPA",
+      "JAXB",
+      "JNDI",
+      "JAXP"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 67,
+    "question": "What does the volatile keyword guarantee? (variant 67)",
+    "options": [
+      "Immutability",
+      "Visibility of changes across threads",
+      "Lazy initialization",
+      "Serialization"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 68,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 68)",
+    "options": [
+      "JNDI",
+      "JPA",
+      "JAXB",
+      "JAXP"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 69,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 69)",
+    "options": [
+      "Iterator Pattern",
+      "Observer Pattern",
+      "Factory Pattern",
+      "Decorator Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 70,
+    "question": "Which interface is used for marker purpose in Java? (variant 70)",
+    "options": [
+      "Cloneable",
+      "Comparable",
+      "Runnable",
+      "Serializable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 71,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 71)",
+    "options": [
+      "JAXP",
+      "JPA",
+      "JAXB",
+      "JNDI"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 72,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 72)",
+    "options": [
+      "JAXB",
+      "JNDI",
+      "JAXP",
+      "JPA"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 73,
+    "question": "What is the purpose of the transient keyword? (variant 73)",
+    "options": [
+      "Exclude field from serialization",
+      "Make method final",
+      "Prevent inheritance",
+      "Mark as constant"
+    ],
+    "answer": "Exclude field from serialization"
+  },
+  {
+    "id": 74,
+    "question": "Which type of class cannot be instantiated? (variant 74)",
+    "options": [
+      "Abstract class",
+      "Enum",
+      "Final class",
+      "Static class"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 75,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 75)",
+    "options": [
+      "Prototype Pattern",
+      "Singleton Pattern",
+      "Builder Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 76,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 76)",
+    "options": [
+      "final",
+      "transient",
+      "synchronized",
+      "volatile"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 77,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 77)",
+    "options": [
+      "Factory Pattern",
+      "Decorator Pattern",
+      "Observer Pattern",
+      "Iterator Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 78,
+    "question": "What is the purpose of the transient keyword? (variant 78)",
+    "options": [
+      "Prevent inheritance",
+      "Exclude field from serialization",
+      "Make method final",
+      "Mark as constant"
+    ],
+    "answer": "Exclude field from serialization"
+  },
+  {
+    "id": 79,
+    "question": "What does the volatile keyword guarantee? (variant 79)",
+    "options": [
+      "Visibility of changes across threads",
+      "Lazy initialization",
+      "Serialization",
+      "Immutability"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 80,
+    "question": "Which interface is used for marker purpose in Java? (variant 80)",
+    "options": [
+      "Runnable",
+      "Cloneable",
+      "Comparable",
+      "Serializable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 81,
+    "question": "Which Java feature allows multiple methods with the same name but different parameters? (variant 81)",
+    "options": [
+      "Method Overriding",
+      "Abstraction",
+      "Encapsulation",
+      "Method Overloading"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 82,
+    "question": "What is the purpose of the transient keyword? (variant 82)",
+    "options": [
+      "Prevent inheritance",
+      "Mark as constant",
+      "Exclude field from serialization",
+      "Make method final"
+    ],
+    "answer": "Exclude field from serialization"
+  },
+  {
+    "id": 83,
+    "question": "Which type of class cannot be instantiated? (variant 83)",
+    "options": [
+      "Enum",
+      "Abstract class",
+      "Final class",
+      "Static class"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 84,
+    "question": "Which type of class cannot be instantiated? (variant 84)",
+    "options": [
+      "Abstract class",
+      "Final class",
+      "Static class",
+      "Enum"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 85,
+    "question": "What does the volatile keyword guarantee? (variant 85)",
+    "options": [
+      "Serialization",
+      "Lazy initialization",
+      "Immutability",
+      "Visibility of changes across threads"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 86,
+    "question": "Which Java feature allows multiple methods with the same name but different parameters? (variant 86)",
+    "options": [
+      "Encapsulation",
+      "Method Overriding",
+      "Method Overloading",
+      "Abstraction"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 87,
+    "question": "What does the volatile keyword guarantee? (variant 87)",
+    "options": [
+      "Immutability",
+      "Serialization",
+      "Visibility of changes across threads",
+      "Lazy initialization"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 88,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 88)",
+    "options": [
+      "Decorator Pattern",
+      "Observer Pattern",
+      "Iterator Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 89,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 89)",
+    "options": [
+      "final",
+      "volatile",
+      "synchronized",
+      "transient"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 90,
+    "question": "What does the volatile keyword guarantee? (variant 90)",
+    "options": [
+      "Serialization",
+      "Lazy initialization",
+      "Visibility of changes across threads",
+      "Immutability"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 91,
+    "question": "Which interface is used for marker purpose in Java? (variant 91)",
+    "options": [
+      "Serializable",
+      "Comparable",
+      "Runnable",
+      "Cloneable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 92,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 92)",
+    "options": [
+      "synchronized",
+      "transient",
+      "final",
+      "volatile"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 93,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 93)",
+    "options": [
+      "final",
+      "transient",
+      "synchronized",
+      "volatile"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 94,
+    "question": "Which type of class cannot be instantiated? (variant 94)",
+    "options": [
+      "Final class",
+      "Abstract class",
+      "Static class",
+      "Enum"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 95,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 95)",
+    "options": [
+      "Builder Pattern",
+      "Singleton Pattern",
+      "Factory Pattern",
+      "Prototype Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 96,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 96)",
+    "options": [
+      "final",
+      "transient",
+      "volatile",
+      "synchronized"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 97,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 97)",
+    "options": [
+      "transient",
+      "synchronized",
+      "final",
+      "volatile"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 98,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 98)",
+    "options": [
+      "JPA",
+      "JAXP",
+      "JAXB",
+      "JNDI"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 99,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 99)",
+    "options": [
+      "Prototype Pattern",
+      "Builder Pattern",
+      "Factory Pattern",
+      "Singleton Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 100,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 100)",
+    "options": [
+      "JAXB",
+      "JAXP",
+      "JPA",
+      "JNDI"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 101,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 101)",
+    "options": [
+      "JPA",
+      "JAXP",
+      "JNDI",
+      "JAXB"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 102,
+    "question": "What does the volatile keyword guarantee? (variant 102)",
+    "options": [
+      "Serialization",
+      "Lazy initialization",
+      "Visibility of changes across threads",
+      "Immutability"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 103,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 103)",
+    "options": [
+      "volatile",
+      "transient",
+      "final",
+      "synchronized"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 104,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 104)",
+    "options": [
+      "Prototype Pattern",
+      "Singleton Pattern",
+      "Builder Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 105,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 105)",
+    "options": [
+      "JNDI",
+      "JPA",
+      "JAXP",
+      "JAXB"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 106,
+    "question": "What is the purpose of the transient keyword? (variant 106)",
+    "options": [
+      "Prevent inheritance",
+      "Make method final",
+      "Mark as constant",
+      "Exclude field from serialization"
+    ],
+    "answer": "Exclude field from serialization"
+  },
+  {
+    "id": 107,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 107)",
+    "options": [
+      "JAXB",
+      "JNDI",
+      "JAXP",
+      "JPA"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 108,
+    "question": "What is the purpose of the transient keyword? (variant 108)",
+    "options": [
+      "Mark as constant",
+      "Make method final",
+      "Prevent inheritance",
+      "Exclude field from serialization"
+    ],
+    "answer": "Exclude field from serialization"
+  },
+  {
+    "id": 109,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 109)",
+    "options": [
+      "JPA",
+      "JNDI",
+      "JAXP",
+      "JAXB"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 110,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 110)",
+    "options": [
+      "Prototype Pattern",
+      "Singleton Pattern",
+      "Builder Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 111,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 111)",
+    "options": [
+      "InterruptedException",
+      "TimeoutException",
+      "ExecutionException",
+      "IOException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 112,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 112)",
+    "options": [
+      "final",
+      "transient",
+      "synchronized",
+      "volatile"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 113,
+    "question": "What does the volatile keyword guarantee? (variant 113)",
+    "options": [
+      "Serialization",
+      "Lazy initialization",
+      "Visibility of changes across threads",
+      "Immutability"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 114,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 114)",
+    "options": [
+      "Decorator Pattern",
+      "Iterator Pattern",
+      "Factory Pattern",
+      "Observer Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 115,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 115)",
+    "options": [
+      "synchronized",
+      "transient",
+      "final",
+      "volatile"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 116,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 116)",
+    "options": [
+      "InterruptedException",
+      "TimeoutException",
+      "IOException",
+      "ExecutionException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 117,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 117)",
+    "options": [
+      "Singleton Pattern",
+      "Builder Pattern",
+      "Prototype Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 118,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 118)",
+    "options": [
+      "JNDI",
+      "JAXB",
+      "JPA",
+      "JAXP"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 119,
+    "question": "Which interface is used for marker purpose in Java? (variant 119)",
+    "options": [
+      "Serializable",
+      "Comparable",
+      "Runnable",
+      "Cloneable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 120,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 120)",
+    "options": [
+      "Prototype Pattern",
+      "Singleton Pattern",
+      "Builder Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 121,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 121)",
+    "options": [
+      "Factory Pattern",
+      "Decorator Pattern",
+      "Iterator Pattern",
+      "Observer Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 122,
+    "question": "Which Java feature allows multiple methods with the same name but different parameters? (variant 122)",
+    "options": [
+      "Encapsulation",
+      "Method Overloading",
+      "Abstraction",
+      "Method Overriding"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 123,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 123)",
+    "options": [
+      "Builder Pattern",
+      "Factory Pattern",
+      "Prototype Pattern",
+      "Singleton Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 124,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 124)",
+    "options": [
+      "Prototype Pattern",
+      "Singleton Pattern",
+      "Builder Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 125,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 125)",
+    "options": [
+      "TimeoutException",
+      "InterruptedException",
+      "IOException",
+      "ExecutionException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 126,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 126)",
+    "options": [
+      "JPA",
+      "JAXB",
+      "JNDI",
+      "JAXP"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 127,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 127)",
+    "options": [
+      "Prototype Pattern",
+      "Builder Pattern",
+      "Singleton Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 128,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 128)",
+    "options": [
+      "ExecutionException",
+      "IOException",
+      "TimeoutException",
+      "InterruptedException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 129,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 129)",
+    "options": [
+      "IOException",
+      "TimeoutException",
+      "InterruptedException",
+      "ExecutionException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 130,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 130)",
+    "options": [
+      "ExecutionException",
+      "InterruptedException",
+      "IOException",
+      "TimeoutException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 131,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 131)",
+    "options": [
+      "volatile",
+      "final",
+      "synchronized",
+      "transient"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 132,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 132)",
+    "options": [
+      "transient",
+      "final",
+      "volatile",
+      "synchronized"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 133,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 133)",
+    "options": [
+      "JNDI",
+      "JPA",
+      "JAXB",
+      "JAXP"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 134,
+    "question": "Which Java feature allows multiple methods with the same name but different parameters? (variant 134)",
+    "options": [
+      "Encapsulation",
+      "Method Overriding",
+      "Method Overloading",
+      "Abstraction"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 135,
+    "question": "What does the volatile keyword guarantee? (variant 135)",
+    "options": [
+      "Visibility of changes across threads",
+      "Lazy initialization",
+      "Immutability",
+      "Serialization"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 136,
+    "question": "Which type of class cannot be instantiated? (variant 136)",
+    "options": [
+      "Final class",
+      "Abstract class",
+      "Enum",
+      "Static class"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 137,
+    "question": "What does the volatile keyword guarantee? (variant 137)",
+    "options": [
+      "Visibility of changes across threads",
+      "Serialization",
+      "Lazy initialization",
+      "Immutability"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 138,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 138)",
+    "options": [
+      "Builder Pattern",
+      "Prototype Pattern",
+      "Singleton Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 139,
+    "question": "Which type of class cannot be instantiated? (variant 139)",
+    "options": [
+      "Enum",
+      "Static class",
+      "Abstract class",
+      "Final class"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 140,
+    "question": "What does the volatile keyword guarantee? (variant 140)",
+    "options": [
+      "Lazy initialization",
+      "Serialization",
+      "Visibility of changes across threads",
+      "Immutability"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 141,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 141)",
+    "options": [
+      "Iterator Pattern",
+      "Observer Pattern",
+      "Decorator Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 142,
+    "question": "Which type of class cannot be instantiated? (variant 142)",
+    "options": [
+      "Final class",
+      "Enum",
+      "Static class",
+      "Abstract class"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 143,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 143)",
+    "options": [
+      "Decorator Pattern",
+      "Iterator Pattern",
+      "Factory Pattern",
+      "Observer Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 144,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 144)",
+    "options": [
+      "Factory Pattern",
+      "Builder Pattern",
+      "Singleton Pattern",
+      "Prototype Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 145,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 145)",
+    "options": [
+      "volatile",
+      "transient",
+      "final",
+      "synchronized"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 146,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 146)",
+    "options": [
+      "Builder Pattern",
+      "Factory Pattern",
+      "Prototype Pattern",
+      "Singleton Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 147,
+    "question": "Which type of class cannot be instantiated? (variant 147)",
+    "options": [
+      "Static class",
+      "Enum",
+      "Abstract class",
+      "Final class"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 148,
+    "question": "Which interface is used for marker purpose in Java? (variant 148)",
+    "options": [
+      "Runnable",
+      "Serializable",
+      "Comparable",
+      "Cloneable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 149,
+    "question": "What is the purpose of the transient keyword? (variant 149)",
+    "options": [
+      "Prevent inheritance",
+      "Exclude field from serialization",
+      "Make method final",
+      "Mark as constant"
+    ],
+    "answer": "Exclude field from serialization"
+  },
+  {
+    "id": 150,
+    "question": "What does the volatile keyword guarantee? (variant 150)",
+    "options": [
+      "Immutability",
+      "Lazy initialization",
+      "Visibility of changes across threads",
+      "Serialization"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 151,
+    "question": "What does the volatile keyword guarantee? (variant 151)",
+    "options": [
+      "Visibility of changes across threads",
+      "Lazy initialization",
+      "Immutability",
+      "Serialization"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 152,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 152)",
+    "options": [
+      "ExecutionException",
+      "IOException",
+      "InterruptedException",
+      "TimeoutException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 153,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 153)",
+    "options": [
+      "Builder Pattern",
+      "Prototype Pattern",
+      "Factory Pattern",
+      "Singleton Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 154,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 154)",
+    "options": [
+      "TimeoutException",
+      "InterruptedException",
+      "ExecutionException",
+      "IOException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 155,
+    "question": "What does the volatile keyword guarantee? (variant 155)",
+    "options": [
+      "Visibility of changes across threads",
+      "Lazy initialization",
+      "Serialization",
+      "Immutability"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 156,
+    "question": "Which type of class cannot be instantiated? (variant 156)",
+    "options": [
+      "Abstract class",
+      "Static class",
+      "Enum",
+      "Final class"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 157,
+    "question": "Which interface is used for marker purpose in Java? (variant 157)",
+    "options": [
+      "Runnable",
+      "Serializable",
+      "Cloneable",
+      "Comparable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 158,
+    "question": "What does the volatile keyword guarantee? (variant 158)",
+    "options": [
+      "Lazy initialization",
+      "Visibility of changes across threads",
+      "Serialization",
+      "Immutability"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 159,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 159)",
+    "options": [
+      "IOException",
+      "TimeoutException",
+      "ExecutionException",
+      "InterruptedException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 160,
+    "question": "Which interface is used for marker purpose in Java? (variant 160)",
+    "options": [
+      "Serializable",
+      "Comparable",
+      "Cloneable",
+      "Runnable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 161,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 161)",
+    "options": [
+      "Factory Pattern",
+      "Decorator Pattern",
+      "Iterator Pattern",
+      "Observer Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 162,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 162)",
+    "options": [
+      "TimeoutException",
+      "IOException",
+      "InterruptedException",
+      "ExecutionException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 163,
+    "question": "Which interface is used for marker purpose in Java? (variant 163)",
+    "options": [
+      "Comparable",
+      "Runnable",
+      "Cloneable",
+      "Serializable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 164,
+    "question": "Which type of class cannot be instantiated? (variant 164)",
+    "options": [
+      "Enum",
+      "Abstract class",
+      "Static class",
+      "Final class"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 165,
+    "question": "Which interface is used for marker purpose in Java? (variant 165)",
+    "options": [
+      "Comparable",
+      "Runnable",
+      "Serializable",
+      "Cloneable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 166,
+    "question": "What is the purpose of the transient keyword? (variant 166)",
+    "options": [
+      "Exclude field from serialization",
+      "Make method final",
+      "Prevent inheritance",
+      "Mark as constant"
+    ],
+    "answer": "Exclude field from serialization"
+  },
+  {
+    "id": 167,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 167)",
+    "options": [
+      "JPA",
+      "JAXP",
+      "JNDI",
+      "JAXB"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 168,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 168)",
+    "options": [
+      "transient",
+      "final",
+      "synchronized",
+      "volatile"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 169,
+    "question": "Which interface is used for marker purpose in Java? (variant 169)",
+    "options": [
+      "Runnable",
+      "Cloneable",
+      "Comparable",
+      "Serializable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 170,
+    "question": "Which Java feature allows multiple methods with the same name but different parameters? (variant 170)",
+    "options": [
+      "Abstraction",
+      "Method Overriding",
+      "Encapsulation",
+      "Method Overloading"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 171,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 171)",
+    "options": [
+      "JAXP",
+      "JAXB",
+      "JNDI",
+      "JPA"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 172,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 172)",
+    "options": [
+      "final",
+      "transient",
+      "volatile",
+      "synchronized"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 173,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 173)",
+    "options": [
+      "TimeoutException",
+      "IOException",
+      "ExecutionException",
+      "InterruptedException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 174,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 174)",
+    "options": [
+      "JAXP",
+      "JAXB",
+      "JNDI",
+      "JPA"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 175,
+    "question": "Which interface is used for marker purpose in Java? (variant 175)",
+    "options": [
+      "Cloneable",
+      "Comparable",
+      "Serializable",
+      "Runnable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 176,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 176)",
+    "options": [
+      "transient",
+      "synchronized",
+      "final",
+      "volatile"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 177,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 177)",
+    "options": [
+      "TimeoutException",
+      "ExecutionException",
+      "InterruptedException",
+      "IOException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 178,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 178)",
+    "options": [
+      "Observer Pattern",
+      "Decorator Pattern",
+      "Factory Pattern",
+      "Iterator Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 179,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 179)",
+    "options": [
+      "Decorator Pattern",
+      "Observer Pattern",
+      "Factory Pattern",
+      "Iterator Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 180,
+    "question": "Which Java feature allows multiple methods with the same name but different parameters? (variant 180)",
+    "options": [
+      "Abstraction",
+      "Method Overloading",
+      "Encapsulation",
+      "Method Overriding"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 181,
+    "question": "What is the purpose of the transient keyword? (variant 181)",
+    "options": [
+      "Exclude field from serialization",
+      "Mark as constant",
+      "Make method final",
+      "Prevent inheritance"
+    ],
+    "answer": "Exclude field from serialization"
+  },
+  {
+    "id": 182,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 182)",
+    "options": [
+      "Decorator Pattern",
+      "Observer Pattern",
+      "Factory Pattern",
+      "Iterator Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 183,
+    "question": "Which Java feature allows multiple methods with the same name but different parameters? (variant 183)",
+    "options": [
+      "Method Overloading",
+      "Method Overriding",
+      "Encapsulation",
+      "Abstraction"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 184,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 184)",
+    "options": [
+      "JAXP",
+      "JPA",
+      "JAXB",
+      "JNDI"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 185,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 185)",
+    "options": [
+      "IOException",
+      "ExecutionException",
+      "TimeoutException",
+      "InterruptedException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 186,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 186)",
+    "options": [
+      "Iterator Pattern",
+      "Observer Pattern",
+      "Decorator Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 187,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 187)",
+    "options": [
+      "transient",
+      "final",
+      "volatile",
+      "synchronized"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 188,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 188)",
+    "options": [
+      "JAXB",
+      "JNDI",
+      "JAXP",
+      "JPA"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 189,
+    "question": "Which Java feature allows multiple methods with the same name but different parameters? (variant 189)",
+    "options": [
+      "Abstraction",
+      "Method Overriding",
+      "Method Overloading",
+      "Encapsulation"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 190,
+    "question": "What does the volatile keyword guarantee? (variant 190)",
+    "options": [
+      "Immutability",
+      "Serialization",
+      "Visibility of changes across threads",
+      "Lazy initialization"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 191,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 191)",
+    "options": [
+      "final",
+      "transient",
+      "volatile",
+      "synchronized"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 192,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 192)",
+    "options": [
+      "Builder Pattern",
+      "Factory Pattern",
+      "Singleton Pattern",
+      "Prototype Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 193,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 193)",
+    "options": [
+      "synchronized",
+      "final",
+      "volatile",
+      "transient"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 194,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 194)",
+    "options": [
+      "ExecutionException",
+      "TimeoutException",
+      "InterruptedException",
+      "IOException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 195,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 195)",
+    "options": [
+      "Decorator Pattern",
+      "Observer Pattern",
+      "Iterator Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 196,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 196)",
+    "options": [
+      "InterruptedException",
+      "ExecutionException",
+      "TimeoutException",
+      "IOException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 197,
+    "question": "Which interface is used for marker purpose in Java? (variant 197)",
+    "options": [
+      "Comparable",
+      "Runnable",
+      "Cloneable",
+      "Serializable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 198,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 198)",
+    "options": [
+      "final",
+      "synchronized",
+      "transient",
+      "volatile"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 199,
+    "question": "Which interface is used for marker purpose in Java? (variant 199)",
+    "options": [
+      "Runnable",
+      "Serializable",
+      "Cloneable",
+      "Comparable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 200,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 200)",
+    "options": [
+      "Observer Pattern",
+      "Decorator Pattern",
+      "Factory Pattern",
+      "Iterator Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 201,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 201)",
+    "options": [
+      "Decorator Pattern",
+      "Factory Pattern",
+      "Observer Pattern",
+      "Iterator Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 202,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 202)",
+    "options": [
+      "Observer Pattern",
+      "Iterator Pattern",
+      "Decorator Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 203,
+    "question": "Which type of class cannot be instantiated? (variant 203)",
+    "options": [
+      "Static class",
+      "Final class",
+      "Abstract class",
+      "Enum"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 204,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 204)",
+    "options": [
+      "JNDI",
+      "JAXP",
+      "JPA",
+      "JAXB"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 205,
+    "question": "Which type of class cannot be instantiated? (variant 205)",
+    "options": [
+      "Final class",
+      "Abstract class",
+      "Enum",
+      "Static class"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 206,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 206)",
+    "options": [
+      "Observer Pattern",
+      "Decorator Pattern",
+      "Iterator Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 207,
+    "question": "Which type of class cannot be instantiated? (variant 207)",
+    "options": [
+      "Abstract class",
+      "Static class",
+      "Enum",
+      "Final class"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 208,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 208)",
+    "options": [
+      "final",
+      "transient",
+      "volatile",
+      "synchronized"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 209,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 209)",
+    "options": [
+      "Prototype Pattern",
+      "Singleton Pattern",
+      "Factory Pattern",
+      "Builder Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 210,
+    "question": "Which interface is used for marker purpose in Java? (variant 210)",
+    "options": [
+      "Comparable",
+      "Runnable",
+      "Cloneable",
+      "Serializable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 211,
+    "question": "Which interface is used for marker purpose in Java? (variant 211)",
+    "options": [
+      "Cloneable",
+      "Comparable",
+      "Serializable",
+      "Runnable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 212,
+    "question": "Which Java feature allows multiple methods with the same name but different parameters? (variant 212)",
+    "options": [
+      "Encapsulation",
+      "Method Overriding",
+      "Method Overloading",
+      "Abstraction"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 213,
+    "question": "What is the purpose of the transient keyword? (variant 213)",
+    "options": [
+      "Prevent inheritance",
+      "Exclude field from serialization",
+      "Mark as constant",
+      "Make method final"
+    ],
+    "answer": "Exclude field from serialization"
+  },
+  {
+    "id": 214,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 214)",
+    "options": [
+      "Observer Pattern",
+      "Decorator Pattern",
+      "Iterator Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 215,
+    "question": "Which type of class cannot be instantiated? (variant 215)",
+    "options": [
+      "Enum",
+      "Static class",
+      "Abstract class",
+      "Final class"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 216,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 216)",
+    "options": [
+      "IOException",
+      "InterruptedException",
+      "ExecutionException",
+      "TimeoutException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 217,
+    "question": "Which Java feature allows multiple methods with the same name but different parameters? (variant 217)",
+    "options": [
+      "Method Overriding",
+      "Method Overloading",
+      "Encapsulation",
+      "Abstraction"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 218,
+    "question": "Which type of class cannot be instantiated? (variant 218)",
+    "options": [
+      "Enum",
+      "Static class",
+      "Final class",
+      "Abstract class"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 219,
+    "question": "Which interface is used for marker purpose in Java? (variant 219)",
+    "options": [
+      "Comparable",
+      "Serializable",
+      "Runnable",
+      "Cloneable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 220,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 220)",
+    "options": [
+      "JPA",
+      "JAXP",
+      "JNDI",
+      "JAXB"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 221,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 221)",
+    "options": [
+      "Iterator Pattern",
+      "Factory Pattern",
+      "Observer Pattern",
+      "Decorator Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 222,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 222)",
+    "options": [
+      "ExecutionException",
+      "InterruptedException",
+      "IOException",
+      "TimeoutException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 223,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 223)",
+    "options": [
+      "JNDI",
+      "JAXB",
+      "JPA",
+      "JAXP"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 224,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 224)",
+    "options": [
+      "JPA",
+      "JAXB",
+      "JNDI",
+      "JAXP"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 225,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 225)",
+    "options": [
+      "Builder Pattern",
+      "Factory Pattern",
+      "Singleton Pattern",
+      "Prototype Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 226,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 226)",
+    "options": [
+      "Factory Pattern",
+      "Observer Pattern",
+      "Iterator Pattern",
+      "Decorator Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 227,
+    "question": "Which Java feature allows multiple methods with the same name but different parameters? (variant 227)",
+    "options": [
+      "Method Overloading",
+      "Method Overriding",
+      "Encapsulation",
+      "Abstraction"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 228,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 228)",
+    "options": [
+      "volatile",
+      "final",
+      "synchronized",
+      "transient"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 229,
+    "question": "Which type of class cannot be instantiated? (variant 229)",
+    "options": [
+      "Abstract class",
+      "Final class",
+      "Enum",
+      "Static class"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 230,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 230)",
+    "options": [
+      "Factory Pattern",
+      "Prototype Pattern",
+      "Singleton Pattern",
+      "Builder Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 231,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 231)",
+    "options": [
+      "Factory Pattern",
+      "Iterator Pattern",
+      "Observer Pattern",
+      "Decorator Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 232,
+    "question": "What does the volatile keyword guarantee? (variant 232)",
+    "options": [
+      "Serialization",
+      "Visibility of changes across threads",
+      "Lazy initialization",
+      "Immutability"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 233,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 233)",
+    "options": [
+      "Observer Pattern",
+      "Decorator Pattern",
+      "Iterator Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 234,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 234)",
+    "options": [
+      "Singleton Pattern",
+      "Prototype Pattern",
+      "Builder Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 235,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 235)",
+    "options": [
+      "transient",
+      "synchronized",
+      "final",
+      "volatile"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 236,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 236)",
+    "options": [
+      "Factory Pattern",
+      "Builder Pattern",
+      "Prototype Pattern",
+      "Singleton Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 237,
+    "question": "Which interface is used for marker purpose in Java? (variant 237)",
+    "options": [
+      "Cloneable",
+      "Serializable",
+      "Runnable",
+      "Comparable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 238,
+    "question": "What is the purpose of the transient keyword? (variant 238)",
+    "options": [
+      "Prevent inheritance",
+      "Make method final",
+      "Exclude field from serialization",
+      "Mark as constant"
+    ],
+    "answer": "Exclude field from serialization"
+  },
+  {
+    "id": 239,
+    "question": "Which interface is used for marker purpose in Java? (variant 239)",
+    "options": [
+      "Comparable",
+      "Runnable",
+      "Serializable",
+      "Cloneable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 240,
+    "question": "Which type of class cannot be instantiated? (variant 240)",
+    "options": [
+      "Static class",
+      "Abstract class",
+      "Final class",
+      "Enum"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 241,
+    "question": "Which type of class cannot be instantiated? (variant 241)",
+    "options": [
+      "Final class",
+      "Static class",
+      "Abstract class",
+      "Enum"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 242,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 242)",
+    "options": [
+      "Prototype Pattern",
+      "Factory Pattern",
+      "Builder Pattern",
+      "Singleton Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 243,
+    "question": "What is the purpose of the transient keyword? (variant 243)",
+    "options": [
+      "Prevent inheritance",
+      "Make method final",
+      "Exclude field from serialization",
+      "Mark as constant"
+    ],
+    "answer": "Exclude field from serialization"
+  },
+  {
+    "id": 244,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 244)",
+    "options": [
+      "transient",
+      "final",
+      "synchronized",
+      "volatile"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 245,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 245)",
+    "options": [
+      "Factory Pattern",
+      "Prototype Pattern",
+      "Singleton Pattern",
+      "Builder Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 246,
+    "question": "What does the volatile keyword guarantee? (variant 246)",
+    "options": [
+      "Lazy initialization",
+      "Visibility of changes across threads",
+      "Serialization",
+      "Immutability"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 247,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 247)",
+    "options": [
+      "InterruptedException",
+      "ExecutionException",
+      "TimeoutException",
+      "IOException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 248,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 248)",
+    "options": [
+      "Prototype Pattern",
+      "Builder Pattern",
+      "Singleton Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 249,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 249)",
+    "options": [
+      "Prototype Pattern",
+      "Factory Pattern",
+      "Builder Pattern",
+      "Singleton Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 250,
+    "question": "What does the volatile keyword guarantee? (variant 250)",
+    "options": [
+      "Serialization",
+      "Immutability",
+      "Visibility of changes across threads",
+      "Lazy initialization"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 251,
+    "question": "What does the volatile keyword guarantee? (variant 251)",
+    "options": [
+      "Immutability",
+      "Lazy initialization",
+      "Serialization",
+      "Visibility of changes across threads"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 252,
+    "question": "Which interface is used for marker purpose in Java? (variant 252)",
+    "options": [
+      "Comparable",
+      "Cloneable",
+      "Runnable",
+      "Serializable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 253,
+    "question": "What does the volatile keyword guarantee? (variant 253)",
+    "options": [
+      "Lazy initialization",
+      "Visibility of changes across threads",
+      "Immutability",
+      "Serialization"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 254,
+    "question": "What does the volatile keyword guarantee? (variant 254)",
+    "options": [
+      "Serialization",
+      "Lazy initialization",
+      "Immutability",
+      "Visibility of changes across threads"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 255,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 255)",
+    "options": [
+      "Factory Pattern",
+      "Singleton Pattern",
+      "Prototype Pattern",
+      "Builder Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 256,
+    "question": "Which Java feature allows multiple methods with the same name but different parameters? (variant 256)",
+    "options": [
+      "Method Overloading",
+      "Method Overriding",
+      "Abstraction",
+      "Encapsulation"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 257,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 257)",
+    "options": [
+      "transient",
+      "synchronized",
+      "volatile",
+      "final"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 258,
+    "question": "Which type of class cannot be instantiated? (variant 258)",
+    "options": [
+      "Enum",
+      "Final class",
+      "Static class",
+      "Abstract class"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 259,
+    "question": "Which interface is used for marker purpose in Java? (variant 259)",
+    "options": [
+      "Serializable",
+      "Cloneable",
+      "Runnable",
+      "Comparable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 260,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 260)",
+    "options": [
+      "volatile",
+      "final",
+      "synchronized",
+      "transient"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 261,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 261)",
+    "options": [
+      "Observer Pattern",
+      "Decorator Pattern",
+      "Iterator Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 262,
+    "question": "What does the volatile keyword guarantee? (variant 262)",
+    "options": [
+      "Immutability",
+      "Visibility of changes across threads",
+      "Serialization",
+      "Lazy initialization"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 263,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 263)",
+    "options": [
+      "JAXP",
+      "JPA",
+      "JAXB",
+      "JNDI"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 264,
+    "question": "What is the purpose of the transient keyword? (variant 264)",
+    "options": [
+      "Mark as constant",
+      "Exclude field from serialization",
+      "Make method final",
+      "Prevent inheritance"
+    ],
+    "answer": "Exclude field from serialization"
+  },
+  {
+    "id": 265,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 265)",
+    "options": [
+      "JAXB",
+      "JAXP",
+      "JPA",
+      "JNDI"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 266,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 266)",
+    "options": [
+      "Observer Pattern",
+      "Factory Pattern",
+      "Iterator Pattern",
+      "Decorator Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 267,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 267)",
+    "options": [
+      "JNDI",
+      "JAXP",
+      "JAXB",
+      "JPA"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 268,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 268)",
+    "options": [
+      "transient",
+      "volatile",
+      "synchronized",
+      "final"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 269,
+    "question": "Which Java feature allows multiple methods with the same name but different parameters? (variant 269)",
+    "options": [
+      "Method Overriding",
+      "Abstraction",
+      "Encapsulation",
+      "Method Overloading"
+    ],
+    "answer": "Method Overloading"
+  },
+  {
+    "id": 270,
+    "question": "What does the volatile keyword guarantee? (variant 270)",
+    "options": [
+      "Visibility of changes across threads",
+      "Serialization",
+      "Lazy initialization",
+      "Immutability"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 271,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 271)",
+    "options": [
+      "TimeoutException",
+      "ExecutionException",
+      "InterruptedException",
+      "IOException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 272,
+    "question": "Which type of class cannot be instantiated? (variant 272)",
+    "options": [
+      "Final class",
+      "Enum",
+      "Abstract class",
+      "Static class"
+    ],
+    "answer": "Abstract class"
+  },
+  {
+    "id": 273,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 273)",
+    "options": [
+      "IOException",
+      "InterruptedException",
+      "TimeoutException",
+      "ExecutionException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 274,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 274)",
+    "options": [
+      "Singleton Pattern",
+      "Builder Pattern",
+      "Prototype Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 275,
+    "question": "What does the volatile keyword guarantee? (variant 275)",
+    "options": [
+      "Lazy initialization",
+      "Serialization",
+      "Immutability",
+      "Visibility of changes across threads"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 276,
+    "question": "Which interface is used for marker purpose in Java? (variant 276)",
+    "options": [
+      "Cloneable",
+      "Comparable",
+      "Serializable",
+      "Runnable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 277,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 277)",
+    "options": [
+      "JNDI",
+      "JAXP",
+      "JPA",
+      "JAXB"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 278,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 278)",
+    "options": [
+      "Decorator Pattern",
+      "Observer Pattern",
+      "Factory Pattern",
+      "Iterator Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 279,
+    "question": "What does the volatile keyword guarantee? (variant 279)",
+    "options": [
+      "Serialization",
+      "Visibility of changes across threads",
+      "Immutability",
+      "Lazy initialization"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 280,
+    "question": "What is the purpose of the transient keyword? (variant 280)",
+    "options": [
+      "Prevent inheritance",
+      "Make method final",
+      "Exclude field from serialization",
+      "Mark as constant"
+    ],
+    "answer": "Exclude field from serialization"
+  },
+  {
+    "id": 281,
+    "question": "Which interface is used for marker purpose in Java? (variant 281)",
+    "options": [
+      "Runnable",
+      "Cloneable",
+      "Comparable",
+      "Serializable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 282,
+    "question": "What does the volatile keyword guarantee? (variant 282)",
+    "options": [
+      "Visibility of changes across threads",
+      "Lazy initialization",
+      "Serialization",
+      "Immutability"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 283,
+    "question": "What does the volatile keyword guarantee? (variant 283)",
+    "options": [
+      "Immutability",
+      "Visibility of changes across threads",
+      "Lazy initialization",
+      "Serialization"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 284,
+    "question": "What is the purpose of the transient keyword? (variant 284)",
+    "options": [
+      "Exclude field from serialization",
+      "Mark as constant",
+      "Make method final",
+      "Prevent inheritance"
+    ],
+    "answer": "Exclude field from serialization"
+  },
+  {
+    "id": 285,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 285)",
+    "options": [
+      "Singleton Pattern",
+      "Prototype Pattern",
+      "Builder Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 286,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 286)",
+    "options": [
+      "final",
+      "transient",
+      "volatile",
+      "synchronized"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 287,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 287)",
+    "options": [
+      "Factory Pattern",
+      "Observer Pattern",
+      "Iterator Pattern",
+      "Decorator Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 288,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 288)",
+    "options": [
+      "Decorator Pattern",
+      "Observer Pattern",
+      "Iterator Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 289,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 289)",
+    "options": [
+      "Builder Pattern",
+      "Prototype Pattern",
+      "Singleton Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 290,
+    "question": "What does the volatile keyword guarantee? (variant 290)",
+    "options": [
+      "Immutability",
+      "Lazy initialization",
+      "Serialization",
+      "Visibility of changes across threads"
+    ],
+    "answer": "Visibility of changes across threads"
+  },
+  {
+    "id": 291,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 291)",
+    "options": [
+      "synchronized",
+      "transient",
+      "final",
+      "volatile"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 292,
+    "question": "Which interface is used for marker purpose in Java? (variant 292)",
+    "options": [
+      "Comparable",
+      "Cloneable",
+      "Runnable",
+      "Serializable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 293,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 293)",
+    "options": [
+      "JNDI",
+      "JAXB",
+      "JPA",
+      "JAXP"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 294,
+    "question": "Which Java feature ensures that only one instance of a class is created? (variant 294)",
+    "options": [
+      "Factory Pattern",
+      "Prototype Pattern",
+      "Singleton Pattern",
+      "Builder Pattern"
+    ],
+    "answer": "Singleton Pattern"
+  },
+  {
+    "id": 295,
+    "question": "Which API is used for reading and writing XML documents in Java? (variant 295)",
+    "options": [
+      "JNDI",
+      "JAXP",
+      "JPA",
+      "JAXB"
+    ],
+    "answer": "JAXP"
+  },
+  {
+    "id": 296,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 296)",
+    "options": [
+      "Observer Pattern",
+      "Factory Pattern",
+      "Iterator Pattern",
+      "Decorator Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  },
+  {
+    "id": 297,
+    "question": "Which exception is thrown when a thread is waiting, sleeping, or occupied and it is interrupted? (variant 297)",
+    "options": [
+      "ExecutionException",
+      "TimeoutException",
+      "InterruptedException",
+      "IOException"
+    ],
+    "answer": "InterruptedException"
+  },
+  {
+    "id": 298,
+    "question": "Which interface is used for marker purpose in Java? (variant 298)",
+    "options": [
+      "Comparable",
+      "Runnable",
+      "Serializable",
+      "Cloneable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 299,
+    "question": "Which Java keyword is used to synchronize code blocks? (variant 299)",
+    "options": [
+      "synchronized",
+      "transient",
+      "final",
+      "volatile"
+    ],
+    "answer": "synchronized"
+  },
+  {
+    "id": 300,
+    "question": "Which design pattern provides a way to access the elements of an aggregate object sequentially? (variant 300)",
+    "options": [
+      "Iterator Pattern",
+      "Decorator Pattern",
+      "Observer Pattern",
+      "Factory Pattern"
+    ],
+    "answer": "Iterator Pattern"
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "question": "What type of programming does Java support?",
+    "options": ["object oriented", "procedural only", "hardware scripting", "markup based"],
+    "answer": "object oriented"
+  },
+  {
+    "id": 2,
+    "question": "Which keyword is used to create an object in Java?",
+    "options": ["object", "make", "create", "new"],
+    "answer": "new"
+  },
+  {
+    "id": 3,
+    "question": "What is the size of an int in Java?",
+    "options": ["2 bytes", "4 bytes", "8 bytes", "1 byte"],
+    "answer": "4 bytes"
+  },
+  {
+    "id": 4,
+    "question": "Which method serves as the entry point for a Java application?",
+    "options": ["start", "run", "init", "main"],
+    "answer": "main"
+  },
+  {
+    "id": 5,
+    "question": "What does JVM stand for?",
+    "options": ["Java Variable Method", "Java Visual Machine", "Java Virtual Machine", "Just Virtual Memory"],
+    "answer": "Java Virtual Machine"
+  },
+  {
+    "id": 6,
+    "question": "Which keyword is used to inherit a class?",
+    "options": ["extends", "inherits", "implements", "override"],
+    "answer": "extends"
+  },
+  {
+    "id": 7,
+    "question": "Which keyword prevents inheritance of a class?",
+    "options": ["final", "const", "private", "abstract"],
+    "answer": "final"
+  },
+  {
+    "id": 8,
+    "question": "Which collection type does not allow duplicate elements?",
+    "options": ["Set", "List", "Queue", "Map"],
+    "answer": "Set"
+  },
+  {
+    "id": 9,
+    "question": "Which interface should you implement to create a thread?",
+    "options": ["Runnable", "Serializable", "Cloneable", "AutoCloseable"],
+    "answer": "Runnable"
+  },
+  {
+    "id": 10,
+    "question": "What keyword is used to throw an exception manually?",
+    "options": ["throws", "catch", "try", "throw"],
+    "answer": "throw"
+  },
+  {
+    "id": 11,
+    "question": "What does the static keyword indicate?",
+    "options": ["constant value", "shared across instances", "immutable object", "final method"],
+    "answer": "shared across instances"
+  },
+  {
+    "id": 12,
+    "question": "Which class is used to handle dynamic arrays?",
+    "options": ["ArrayList", "LinkedList", "HashMap", "Queue"],
+    "answer": "ArrayList"
+  },
+  {
+    "id": 13,
+    "question": "Which interface is used to compare objects for sorting?",
+    "options": ["Comparable", "Runnable", "Observer", "AutoCloseable"],
+    "answer": "Comparable"
+  },
+  {
+    "id": 14,
+    "question": "Which type of exception must be handled at compile time?",
+    "options": ["checked", "unchecked", "runtime", "error"],
+    "answer": "checked"
+  },
+  {
+    "id": 15,
+    "question": "Which operator is used to compare two values?",
+    "options": ["==", "=", "equals()", "!="],
+    "answer": "=="
+  },
+  {
+    "id": 16,
+    "question": "What does the 'super' keyword refer to?",
+    "options": ["child class", "parent class", "static variable", "interface"],
+    "answer": "parent class"
+  },
+  {
+    "id": 17,
+    "question": "What is encapsulation?",
+    "options": ["hiding data", "extending class", "overloading methods", "running code faster"],
+    "answer": "hiding data"
+  },
+  {
+    "id": 18,
+    "question": "Which method is called when an object is garbage collected?",
+    "options": ["finalize()", "dispose()", "clean()", "destroy()"],
+    "answer": "finalize()"
+  },
+  {
+    "id": 19,
+    "question": "What is the default value of a boolean variable?",
+    "options": ["true", "1", "false", "null"],
+    "answer": "false"
+  },
+  {
+    "id": 20,
+    "question": "Which class is immutable?",
+    "options": ["String", "StringBuilder", "StringBuffer", "ArrayList"],
+    "answer": "String"
+  },
+  {
+    "id": 21,
+    "question": "Which keyword is used to define a constant in Java?",
+    "options": ["const", "final", "static", "constant"],
+    "answer": "final"
+  },
+  {
+    "id": 22,
+    "question": "What does method overloading allow?",
+    "options": ["same method name with different parameters", "inherit two classes", "change return type only", "add new exceptions"],
+    "answer": "same method name with different parameters"
+  },
+  {
+    "id": 23,
+    "question": "Which collection maintains insertion order?",
+    "options": ["HashSet", "LinkedHashSet", "TreeSet", "PriorityQueue"],
+    "answer": "LinkedHashSet"
+  },
+  {
+    "id": 24,
+    "question": "Which stream operation applies a function to each element?",
+    "options": ["reduce", "map", "filter", "count"],
+    "answer": "map"
+  },
+  {
+    "id": 25,
+    "question": "What is the default value of a reference variable?",
+    "options": ["0", "null", "undefined", "empty"],
+    "answer": "null"
+  },
+  {
+    "id": 26,
+    "question": "What does the keyword 'this' refer to?",
+    "options": ["parent class", "current object", "child object", "static method"],
+    "answer": "current object"
+  },
+  {
+    "id": 27,
+    "question": "Which package is automatically imported in every Java program?",
+    "options": ["java.lang", "java.util", "java.io", "java.net"],
+    "answer": "java.lang"
+  },
+  {
+    "id": 28,
+    "question": "What is the superclass of all classes in Java?",
+    "options": ["Object", "Class", "Base", "Super"],
+    "answer": "Object"
+  },
+  {
+    "id": 29,
+    "question": "Which keyword is used to implement an interface?",
+    "options": ["extends", "interface", "implements", "inherit"],
+    "answer": "implements"
+  },
+  {
+    "id": 30,
+    "question": "Which exception is thrown when dividing by zero?",
+    "options": ["IOException", "NullPointerException", "ArithmeticException", "ArrayIndexOutOfBoundsException"],
+    "answer": "ArithmeticException"
+  },
+  {
+    "id": 31,
+    "question": "Which modifier makes a method belong to the class rather than instance?",
+    "options": ["abstract", "static", "final", "private"],
+    "answer": "static"
+  },
+  {
+    "id": 32,
+    "question": "What is polymorphism?",
+    "options": ["one interface, many implementations", "hiding data", "stopping inheritance", "copying objects"],
+    "answer": "one interface, many implementations"
+  },
+  {
+    "id": 33,
+    "question": "Which class is used to store key-value pairs?",
+    "options": ["HashMap", "ArrayList", "Queue", "Set"],
+    "answer": "HashMap"
+  },
+  {
+    "id": 34,
+    "question": "Which method compares string contents?",
+    "options": ["equals()", "==", "compare()", "compareToIgnoreCase()"],
+    "answer": "equals()"
+  },
+  {
+    "id": 35,
+    "question": "Which keyword is used to create an abstract method?",
+    "options": ["abstract", "static", "final", "native"],
+    "answer": "abstract"
+  },
+  {
+    "id": 36,
+    "question": "What does JVM do?",
+    "options": ["compiles Java to bytecode", "executes bytecode", "creates source files", "encrypts classes"],
+    "answer": "executes bytecode"
+  },
+  {
+    "id": 37,
+    "question": "What is the return type of constructors?",
+    "options": ["void", "Object", "same as class", "none"],
+    "answer": "none"
+  },
+  {
+    "id": 38,
+    "question": "Which keyword breaks out of a loop?",
+    "options": ["break", "exit", "continue", "stop"],
+    "answer": "break"
+  },
+  {
+    "id": 39,
+    "question": "Which operator is used for logical AND?",
+    "options": ["||", "!", "&&", "&"],
+    "answer": "&&"
+  },
+  {
+    "id": 40,
+    "question": "What is the default value of a char?",
+    "options": ["null", "0", "'\\u0000'", "empty"],
+    "answer": "'\\u0000'"
+  },
+   {
+    "id": 41,
+    "question": "Which class is used to read text from a file?",
+    "options": ["FileReader", "Scanner", "BufferedOutputStream", "PrintWriter"],
+    "answer": "FileReader"
+  },
+  {
+    "id": 42,
+    "question": "Which exception is unchecked?",
+    "options": ["NullPointerException", "IOException", "SQLException", "FileNotFoundException"],
+    "answer": "NullPointerException"
+  },
+  {
+    "id": 43,
+    "question": "Which method creates a new thread?",
+    "options": ["start()", "run()", "begin()", "execute()"],
+    "answer": "start()"
+  },
+  {
+    "id": 44,
+    "question": "Which collection guarantees natural ordering?",
+    "options": ["TreeSet", "HashSet", "LinkedHashSet", "ArrayList"],
+    "answer": "TreeSet"
+  },
+  {
+    "id": 45,
+    "question": "Which keyword is used to stop method overriding?",
+    "options": ["final", "static", "abstract", "native"],
+    "answer": "final"
+  },
+  {
+    "id": 46,
+    "question": "What does garbage collection remove?",
+    "options": ["unused objects", "source code", "compiled classes", "threads"],
+    "answer": "unused objects"
+  },
+  {
+    "id": 47,
+    "question": "What is method overriding?",
+    "options": ["subclass redefines method", "change parameter count", "static method overloading", "private method duplication"],
+    "answer": "subclass redefines method"
+  },
+  {
+    "id": 48,
+    "question": "Which method is used to add an element to a list?",
+    "options": ["put()", "add()", "append()", "insert()"],
+    "answer": "add()"
+  },
+  {
+    "id": 49,
+    "question": "Which keyword creates an interface implementation?",
+    "options": ["implements", "extends", "interface", "newinterface"],
+    "answer": "implements"
+  },
+  {
+    "id": 50,
+    "question": "Which interface lets you sort objects differently?",
+    "options": ["Comparator", "Cloneable", "Serializable", "AutoCloseable"],
+    "answer": "Comparator"
+  },
+  {
+    "id": 51,
+    "question": "What does 'super()' do in a constructor?",
+    "options": ["calls parent constructor", "calls itself", "calls static block", "calls child constructor"],
+    "answer": "calls parent constructor"
+  },
+  {
+    "id": 52,
+    "question": "Which keyword can call current class constructor?",
+    "options": ["this()", "super()", "self()", "own()"],
+    "answer": "this()"
+  },
+  {
+    "id": 53,
+    "question": "What is default access modifier in Java?",
+    "options": ["package-private", "public", "private", "protected"],
+    "answer": "package-private"
+  },
+  {
+    "id": 54,
+    "question": "Which method returns the length of a string?",
+    "options": ["length()", "size()", "count()", "getLength()"],
+    "answer": "length()"
+  },
+  {
+    "id": 55,
+    "question": "Which loop always runs at least once?",
+    "options": ["do-while", "for", "while", "enhanced for"],
+    "answer": "do-while"
+  },
+  {
+    "id": 56,
+    "question": "Which method checks if a string starts with given prefix?",
+    "options": ["startsWith()", "hasPrefix()", "begins()", "prefixOf()"],
+    "answer": "startsWith()"
+  },
+  {
+    "id": 57,
+    "question": "What is the parent class of exception classes?",
+    "options": ["Throwable", "Error", "Runtime", "Object"],
+    "answer": "Throwable"
+  },
+  {
+    "id": 58,
+    "question": "Which class is used to handle large numbers?",
+    "options": ["BigInteger", "Double", "Float", "Integer"],
+    "answer": "BigInteger"
+  },
+  {
+    "id": 59,
+    "question": "Which annotation is used for functional interface?",
+    "options": ["@FunctionalInterface", "@Interface", "@Functional", "@OneMethod"],
+    "answer": "@FunctionalInterface"
+  },
+  {
+    "id": 60,
+    "question": "Which method stops thread execution for time?",
+    "options": ["sleep()", "wait()", "pause()", "stop()"],
+    "answer": "sleep()"
+  },
+   {
+    "id": 61,
+    "question": "Which method converts string to uppercase?",
+    "options": ["toUpperCase()", "upper()", "capitalize()", "makeUpper()"],
+    "answer": "toUpperCase()"
+  },
+  {
+    "id": 62,
+    "question": "Which keyword is used to create an abstract class?",
+    "options": ["abstract", "final", "interface", "static"],
+    "answer": "abstract"
+  },
+  {
+    "id": 63,
+    "question": "What is the result of 5/2 in Java?",
+    "options": ["2.5", "2", "2.0", "3"],
+    "answer": "2"
+  },
+  {
+    "id": 64,
+    "question": "What is the size of a byte in Java?",
+    "options": ["1 byte", "2 bytes", "4 bytes", "8 bytes"],
+    "answer": "1 byte"
+  },
+  {
+    "id": 65,
+    "question": "Which class cannot be subclassed?",
+    "options": ["final class", "abstract class", "public class", "interface"],
+    "answer": "final class"
+  },
+  {
+    "id": 66,
+    "question": "What does 'instanceof' keyword check?",
+    "options": ["object type", "variable name", "package name", "method name"],
+    "answer": "object type"
+  },
+  {
+    "id": 67,
+    "question": "Which access modifier makes members visible everywhere?",
+    "options": ["public", "private", "protected", "default"],
+    "answer": "public"
+  },
+  {
+    "id": 68,
+    "question": "Which collection is FIFO?",
+    "options": ["Queue", "Stack", "Map", "Set"],
+    "answer": "Queue"
+  },
+  {
+    "id": 69,
+    "question": "Which method removes the last character from StringBuffer?",
+    "options": ["deleteCharAt()", "remove()", "pop()", "deleteLast()"],
+    "answer": "deleteCharAt()"
+  },
+  {
+    "id": 70,
+    "question": "Which operator joins two strings?",
+    "options": ["+", "&", "*", "."],
+    "answer": "+"
+  },
+  {
+    "id": 71,
+    "question": "What is an interface?",
+    "options": ["collection of abstract methods", "final class", "abstract class", "private methods only"],
+    "answer": "collection of abstract methods"
+  },
+  {
+    "id": 72,
+    "question": "Which collection is LIFO?",
+    "options": ["Stack", "Queue", "HashSet", "TreeMap"],
+    "answer": "Stack"
+  },
+  {
+    "id": 73,
+    "question": "Which method stops current thread until notified?",
+    "options": ["wait()", "sleep()", "pause()", "join()"],
+    "answer": "wait()"
+  },
+  {
+    "id": 74,
+    "question": "Which package contains Scanner class?",
+    "options": ["java.util", "java.io", "java.lang", "java.net"],
+    "answer": "java.util"
+  },
+  {
+    "id": 75,
+    "question": "Which exception is thrown when accessing null reference?",
+    "options": ["NullPointerException", "IOException", "ArithmeticException", "ClassNotFoundException"],
+    "answer": "NullPointerException"
+  },
+  {
+    "id": 76,
+    "question": "What is the default value of int?",
+    "options": ["0", "-1", "null", "undefined"],
+    "answer": "0"
+  },
+  {
+    "id": 77,
+    "question": "Which keyword is used for inheritance?",
+    "options": ["extends", "inherits", "implements", "super"],
+    "answer": "extends"
+  },
+  {
+    "id": 78,
+    "question": "Which type of class can’t be instantiated?",
+    "options": ["abstract class", "final class", "public class", "static class"],
+    "answer": "abstract class"
+  },
+  {
+    "id": 79,
+    "question": "What does 'transient' keyword do?",
+    "options": ["exclude field from serialization", "make method static", "disable inheritance", "enable overriding"],
+    "answer": "exclude field from serialization"
+  },
+  {
+    "id": 80,
+    "question": "Which method returns hash code of an object?",
+    "options": ["hashCode()", "getHash()", "hash()", "code()"],
+    "answer": "hashCode()"
+  }
+]
