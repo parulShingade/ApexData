@@ -119,4 +119,723 @@
     "options": ["@ComponentScan", "@EnableScan", "@BeanScan", "@EntityScan"],
     "answer": "@ComponentScan"
   }
+   {
+    "id": 121,
+    "question": "Which annotation is used to auto-configure a Spring Boot test for web layer only?",
+    "options": ["@WebMvcTest", "@DataJpaTest", "@SpringBootTest", "@MockBean"],
+    "answer": "@WebMvcTest"
+  },
+  {
+    "id": 122,
+    "question": "Which property can exclude an auto-configuration class?",
+    "options": ["spring.autoconfigure.exclude", "spring.boot.disable", "spring.bean.remove", "boot.config.remove"],
+    "answer": "spring.autoconfigure.exclude"
+  },
+  {
+    "id": 123,
+    "question": "What does @SpringBootApplication scan by default?",
+    "options": ["its package & sub-packages", "only root package", "all JARs", "external modules"],
+    "answer": "its package & sub-packages"
+  },
+  {
+    "id": 124,
+    "question": "Which annotation is used to inject a configuration value into a field?",
+    "options": ["@Value", "@Autowired", "@Qualifier", "@Bean"],
+    "answer": "@Value"
+  },
+  {
+    "id": 125,
+    "question": "Which command runs a Spring Boot app from Maven?",
+    "options": ["mvn spring-boot:run", "mvn start", "mvn execute", "mvn boot"],
+    "answer": "mvn spring-boot:run"
+  },
+  {
+    "id": 126,
+    "question": "Which annotation declares a scheduled job method?",
+    "options": ["@Scheduled", "@Async", "@Job", "@Repeatable"],
+    "answer": "@Scheduled"
+  },
+  {
+    "id": 127,
+    "question": "What does the /actuator/info endpoint show?",
+    "options": ["build and custom info", "JVM metrics", "bean list", "database connections"],
+    "answer": "build and custom info"
+  },
+  {
+    "id": 128,
+    "question": "Which annotation registers additional @Configuration classes?",
+    "options": ["@Import", "@EnableExtra", "@AddConfig", "@ExtraConfig"],
+    "answer": "@Import"
+  },
+  {
+    "id": 129,
+    "question": "What does Spring Boot starter parent provide?",
+    "options": ["default dependency versions", "Tomcat configuration", "REST endpoints", "logging only"],
+    "answer": "default dependency versions"
+  },
+  {
+    "id": 130,
+    "question": "Which actuator endpoint shows all available endpoints?",
+    "options": ["/actuator", "/health", "/metrics", "/env"],
+    "answer": "/actuator"
+  },
+  {
+    "id": 131,
+    "question": "What does @EnableWebSecurity enable?",
+    "options": ["Spring Security", "Async processing", "Database migration", "Scheduling"],
+    "answer": "Spring Security"
+  },
+  {
+    "id": 132,
+    "question": "Which annotation helps customize HTTP error handling?",
+    "options": ["@ControllerAdvice", "@RestController", "@Service", "@Async"],
+    "answer": "@ControllerAdvice"
+  },
+  {
+    "id": 133,
+    "question": "What does the property management.endpoint.health.show-details=always do?",
+    "options": ["shows full health details", "disables health", "logs errors only", "disables actuator"],
+    "answer": "shows full health details"
+  },
+  {
+    "id": 134,
+    "question": "What does @ConditionalOnWebApplication check?",
+    "options": ["application is a web app", "bean exists", "class exists", "profile is active"],
+    "answer": "application is a web app"
+  },
+  {
+    "id": 135,
+    "question": "Which annotation disables a bean definition?",
+    "options": ["None", "@Disable", "@NotBean", "@RemoveBean"],
+    "answer": "None"
+  },
+  {
+    "id": 136,
+    "question": "What is Spring Initializr used for?",
+    "options": ["generate project skeleton", "manage JARs", "deploy to cloud", "run Groovy scripts"],
+    "answer": "generate project skeleton"
+  },
+  {
+    "id": 137,
+    "question": "What does @SpringBootTest(webEnvironment=WebEnvironment.RANDOM_PORT) do?",
+    "options": ["start server on random port", "disable web layer", "enable caching", "disable auto config"],
+    "answer": "start server on random port"
+  },
+  {
+    "id": 138,
+    "question": "What is the purpose of @EnableConfigurationProperties?",
+    "options": ["bind properties to POJO", "enable auto config", "enable caching", "create bean definition"],
+    "answer": "bind properties to POJO"
+  },
+  {
+    "id": 139,
+    "question": "What does @RestControllerAdvice do?",
+    "options": ["combine @ControllerAdvice and @ResponseBody", "disable advice", "create REST bean", "enable profiles"],
+    "answer": "combine @ControllerAdvice and @ResponseBody"
+  },
+  {
+    "id": 140,
+    "question": "Which annotation maps HTTP DELETE requests?",
+    "options": ["@DeleteMapping", "@RemoveMapping", "@PostMapping", "@GetMapping"],
+    "answer": "@DeleteMapping"
+  },
+    {
+    "id": 141,
+    "question": "What does @EnableAutoConfiguration do in Spring Boot?",
+    "options": ["automatically configures beans", "disable web security", "enable test mode", "force HTTPS"],
+    "answer": "automatically configures beans"
+  },
+  {
+    "id": 142,
+    "question": "Which annotation is meta-annotated with @Configuration, @EnableAutoConfiguration, and @ComponentScan?",
+    "options": ["@SpringBootApplication", "@Component", "@RestController", "@EnableWebSecurity"],
+    "answer": "@SpringBootApplication"
+  },
+  {
+    "id": 143,
+    "question": "Which annotation can be used to run a method asynchronously?",
+    "options": ["@Async", "@EnableAsyncMethod", "@RunLater", "@Background"],
+    "answer": "@Async"
+  },
+  {
+    "id": 144,
+    "question": "Which annotation helps exclude auto-configuration classes?",
+    "options": ["exclude attribute of @SpringBootApplication", "@DisableAutoConfiguration", "@ExcludeConfig", "@AutoConfigOff"],
+    "answer": "exclude attribute of @SpringBootApplication"
+  },
+  {
+    "id": 145,
+    "question": "Which property configures the datasource URL?",
+    "options": ["spring.datasource.url", "server.datasource.path", "spring.database.link", "app.datasource.uri"],
+    "answer": "spring.datasource.url"
+  },
+  {
+    "id": 146,
+    "question": "Which starter adds actuator endpoints?",
+    "options": ["spring-boot-starter-actuator", "spring-boot-starter-web", "spring-boot-starter-data-jpa", "spring-boot-starter-amqp"],
+    "answer": "spring-boot-starter-actuator"
+  },
+  {
+    "id": 147,
+    "question": "What does @Cacheable do?",
+    "options": ["caches method result", "removes cache", "disable beans", "scan components"],
+    "answer": "caches method result"
+  },
+  {
+    "id": 148,
+    "question": "Which annotation loads a subset of application context for JPA testing?",
+    "options": ["@DataJpaTest", "@WebMvcTest", "@SpringBootTest", "@MockBean"],
+    "answer": "@DataJpaTest"
+  },
+  {
+    "id": 149,
+    "question": "What does the actuator /metrics endpoint show?",
+    "options": ["application metrics", "JAR size", "server logs", "source code"],
+    "answer": "application metrics"
+  },
+  {
+    "id": 150,
+    "question": "Which annotation maps HTTP PATCH requests?",
+    "options": ["@PatchMapping", "@PostMapping", "@PutMapping", "@GetMapping"],
+    "answer": "@PatchMapping"
+  },
+  {
+    "id": 151,
+    "question": "What does Spring Boot DevTools automatically disable in production?",
+    "options": ["live reload", "HTTP GET", "Tomcat", "data source"],
+    "answer": "live reload"
+  },
+  {
+    "id": 152,
+    "question": "Which annotation is used to inject values from application.properties to method parameters?",
+    "options": ["@Value", "@RequestParam", "@Autowired", "@Qualifier"],
+    "answer": "@Value"
+  },
+  {
+    "id": 153,
+    "question": "Which annotation marks a bean as primary when multiple candidates are available?",
+    "options": ["@Primary", "@Qualifier", "@First", "@Preferred"],
+    "answer": "@Primary"
+  },
+  {
+    "id": 154,
+    "question": "Which annotation disables security auto-configuration?",
+    "options": ["@EnableAutoConfiguration(exclude=SecurityAutoConfiguration.class)", "@DisableSecurity", "@NoSecurity", "@RemoveSecurity"],
+    "answer": "@EnableAutoConfiguration(exclude=SecurityAutoConfiguration.class)"
+  },
+  {
+    "id": 155,
+    "question": "Which property enables actuator endpoints like /beans and /health?",
+    "options": ["management.endpoints.web.exposure.include", "spring.enable.actuator", "server.actuator.on", "boot.actuator=true"],
+    "answer": "management.endpoints.web.exposure.include"
+  },
+  {
+    "id": 156,
+    "question": "What is the default embedded web server in Spring Boot?",
+    "options": ["Tomcat", "Jetty", "Undertow", "Netty"],
+    "answer": "Tomcat"
+  },
+  {
+    "id": 157,
+    "question": "Which property changes logging level for a specific package?",
+    "options": ["logging.level.<package>", "log.level.<package>", "spring.logging.<package>", "boot.log.level"],
+    "answer": "logging.level.<package>"
+  },
+  {
+    "id": 158,
+    "question": "Which annotation allows creating custom starter configurations?",
+    "options": ["@Configuration", "@CustomStarter", "@StarterConfig", "@BeanStarter"],
+    "answer": "@Configuration"
+  },
+  {
+    "id": 159,
+    "question": "Which annotation maps HTTP HEAD requests?",
+    "options": ["@RequestMapping(method=HEAD)", "@HeadMapping", "@GetMapping", "@PutMapping"],
+    "answer": "@RequestMapping(method=HEAD)"
+  },
+  {
+    "id": 160,
+    "question": "Which annotation helps run logic when application starts?",
+    "options": ["@EventListener(ApplicationReadyEvent.class)", "@OnStart", "@RunAfter", "@AppStart"],
+    "answer": "@EventListener(ApplicationReadyEvent.class)"
+  },
+  {
+    "id": 161,
+    "question": "Which annotation is used to enable caching in a Spring Boot application?",
+    "options": ["@EnableCaching", "@EnableCacheManager", "@CacheableConfig", "@CachingEnabled"],
+    "answer": "@EnableCaching"
+  },
+  {
+    "id": 162,
+    "question": "Which property is used to specify active profiles in Spring Boot?",
+    "options": ["spring.profiles.active", "spring.active", "boot.profiles.enable", "profiles.on"],
+    "answer": "spring.profiles.active"
+  },
+  {
+    "id": 163,
+    "question": "What does @ConditionalOnProperty do?",
+    "options": ["create bean if property matches", "disable logging", "override profile", "disable endpoint"],
+    "answer": "create bean if property matches"
+  },
+  {
+    "id": 164,
+    "question": "Which annotation injects value from environment variables or properties files?",
+    "options": ["@Value", "@Autowired", "@EnvInject", "@Property"],
+    "answer": "@Value"
+  },
+  {
+    "id": 165,
+    "question": "Which annotation enables scheduling tasks in Spring Boot?",
+    "options": ["@EnableScheduling", "@ScheduleEnable", "@EnableSchedule", "@Scheduler"],
+    "answer": "@EnableScheduling"
+  },
+  {
+    "id": 166,
+    "question": "What is the default scope of a Spring bean?",
+    "options": ["singleton", "prototype", "session", "request"],
+    "answer": "singleton"
+  },
+  {
+    "id": 167,
+    "question": "Which annotation allows mapping multiple HTTP methods in a single method?",
+    "options": ["@RequestMapping", "@GetMapping", "@PostMapping", "@PutMapping"],
+    "answer": "@RequestMapping"
+  },
+  {
+    "id": 168,
+    "question": "Which property sets the location of application YAML file?",
+    "options": ["spring.config.location", "spring.yaml.path", "boot.config.file", "config.path"],
+    "answer": "spring.config.location"
+  },
+  {
+    "id": 169,
+    "question": "Which annotation is used to log a method call in Spring AOP?",
+    "options": ["@Before", "@After", "@Around", "@Pointcut"],
+    "answer": "@Before"
+  },
+  {
+    "id": 170,
+    "question": "What does @EnableJpaAuditing enable?",
+    "options": ["auditing fields like createdDate", "transaction management", "REST API docs", "async logging"],
+    "answer": "auditing fields like createdDate"
+  },
+  {
+    "id": 171,
+    "question": "Which annotation binds a path variable to method parameter?",
+    "options": ["@PathVariable", "@RequestParam", "@RequestBody", "@Value"],
+    "answer": "@PathVariable"
+  },
+  {
+    "id": 172,
+    "question": "What is @ConfigurationProperties used for?",
+    "options": ["bind multiple related properties", "disable properties", "set profile", "enable security"],
+    "answer": "bind multiple related properties"
+  },
+  {
+    "id": 173,
+    "question": "Which actuator endpoint displays list of all beans?",
+    "options": ["/beans", "/actuator/beans", "/metrics", "/env"],
+    "answer": "/beans"
+  },
+  {
+    "id": 174,
+    "question": "Which annotation is used to create custom exception handler method?",
+    "options": ["@ExceptionHandler", "@ErrorHandler", "@ControllerAdvice", "@RestControllerAdvice"],
+    "answer": "@ExceptionHandler"
+  },
+  {
+    "id": 175,
+    "question": "Which annotation indicates that a class is a configuration class?",
+    "options": ["@Configuration", "@Bean", "@Component", "@Config"],
+    "answer": "@Configuration"
+  },
+  {
+    "id": 176,
+    "question": "What does @ComponentScan do by default?",
+    "options": ["scans current package and sub-packages", "scans all modules", "only scans root package", "disables auto config"],
+    "answer": "scans current package and sub-packages"
+  },
+  {
+    "id": 177,
+    "question": "Which starter is used for JDBC support?",
+    "options": ["spring-boot-starter-jdbc", "spring-boot-starter-data-jpa", "spring-boot-starter-webflux", "spring-boot-starter-mail"],
+    "answer": "spring-boot-starter-jdbc"
+  },
+  {
+    "id": 178,
+    "question": "Which property sets the default time zone in Spring Boot?",
+    "options": ["spring.jackson.time-zone", "spring.default.time-zone", "boot.timezone", "server.zone"],
+    "answer": "spring.jackson.time-zone"
+  },
+  {
+    "id": 179,
+    "question": "Which annotation is used to enable AspectJ auto proxy?",
+    "options": ["@EnableAspectJAutoProxy", "@EnableAOP", "@AspectAuto", "@EnableAspect"],
+    "answer": "@EnableAspectJAutoProxy"
+  },
+  {
+    "id": 180,
+    "question": "Which annotation marks a field to be injected automatically?",
+    "options": ["@Autowired", "@Inject", "@Value", "@Primary"],
+    "answer": "@Autowired"
+  },
+  {
+    "id": 181,
+    "question": "Which annotation is used to map HTTP OPTIONS requests?",
+    "options": ["@RequestMapping(method=RequestMethod.OPTIONS)", "@OptionsMapping", "@GetMapping", "@PutMapping"],
+    "answer": "@RequestMapping(method=RequestMethod.OPTIONS)"
+  },
+  {
+    "id": 182,
+    "question": "Which annotation is used to bind JSON body to a method parameter?",
+    "options": ["@RequestBody", "@RequestParam", "@PathVariable", "@Value"],
+    "answer": "@RequestBody"
+  },
+  {
+    "id": 183,
+    "question": "What does @RestController combine?",
+    "options": ["@Controller and @ResponseBody", "@Component and @Service", "@Bean and @Configuration", "@Repository and @Entity"],
+    "answer": "@Controller and @ResponseBody"
+  },
+  {
+    "id": 184,
+    "question": "Which annotation makes a bean conditional on the presence of another bean?",
+    "options": ["@ConditionalOnBean", "@DependsOn", "@BeanIfExists", "@RequireBean"],
+    "answer": "@ConditionalOnBean"
+  },
+  {
+    "id": 185,
+    "question": "Which property sets the server port in Spring Boot?",
+    "options": ["server.port", "spring.server.port", "boot.port", "application.port"],
+    "answer": "server.port"
+  },
+  {
+    "id": 186,
+    "question": "Which annotation marks a bean to be initialized lazily?",
+    "options": ["@Lazy", "@InitLater", "@DelayLoad", "@Deferred"],
+    "answer": "@Lazy"
+  },
+  {
+    "id": 187,
+    "question": "Which annotation is used to define an aspect in Spring AOP?",
+    "options": ["@Aspect", "@Advice", "@Around", "@AopConfig"],
+    "answer": "@Aspect"
+  },
+  {
+    "id": 188,
+    "question": "What does @Repository do besides marking a class as DAO?",
+    "options": ["translates persistence exceptions", "creates REST API", "runs async", "injects dependencies"],
+    "answer": "translates persistence exceptions"
+  },
+  {
+    "id": 189,
+    "question": "Which actuator endpoint displays environment properties?",
+    "options": ["/env", "/metrics", "/health", "/beans"],
+    "answer": "/env"
+  },
+  {
+    "id": 190,
+    "question": "Which annotation is used to load externalized YAML or properties files?",
+    "options": ["@PropertySource", "@ConfigLoad", "@EnableProperties", "@PropertiesImport"],
+    "answer": "@PropertySource"
+  },
+  {
+    "id": 191,
+    "question": "Which annotation helps load specific classes only when certain classes are absent?",
+    "options": ["@ConditionalOnMissingClass", "@ConditionalOnClass", "@ConditionalOnBean", "@ConditionalOnMissingBean"],
+    "answer": "@ConditionalOnMissingClass"
+  },
+  {
+    "id": 192,
+    "question": "What does @EnableGlobalMethodSecurity enable?",
+    "options": ["method-level security annotations", "JPA auditing", "REST auto docs", "WebSocket support"],
+    "answer": "method-level security annotations"
+  },
+  {
+    "id": 193,
+    "question": "Which annotation is used to scan for JPA entities?",
+    "options": ["@EntityScan", "@JpaScan", "@EnableJpaEntities", "@ScanEntities"],
+    "answer": "@EntityScan"
+  },
+  {
+    "id": 194,
+    "question": "Which annotation is used to configure multiple data sources?",
+    "options": ["@Configuration", "@Primary", "@Bean", "@DataSource"],
+    "answer": "@Configuration"
+  },
+  {
+    "id": 195,
+    "question": "What does @Slf4j provide?",
+    "options": ["Lombok logging support", "transaction manager", "JPA auditing", "HTTP client"],
+    "answer": "Lombok logging support"
+  },
+  {
+    "id": 196,
+    "question": "Which annotation is used to create a new bean inside a configuration class?",
+    "options": ["@Bean", "@Component", "@Service", "@Autowired"],
+    "answer": "@Bean"
+  },
+  {
+    "id": 197,
+    "question": "Which property sets the logging file location?",
+    "options": ["logging.file.name", "spring.log.path", "boot.log.location", "server.logging.path"],
+    "answer": "logging.file.name"
+  },
+  {
+    "id": 198,
+    "question": "What does @EnableWebMvc enable?",
+    "options": ["custom MVC configuration", "automatic caching", "JPA repositories", "REST docs"],
+    "answer": "custom MVC configuration"
+  },
+  {
+    "id": 199,
+    "question": "Which annotation is used to import additional configuration classes?",
+    "options": ["@Import", "@Include", "@LoadConfig", "@ExtraConfig"],
+    "answer": "@Import"
+  },
+  {
+    "id": 200,
+    "question": "What does @ConditionalOnExpression check?",
+    "options": ["SpEL expression to conditionally create bean", "property is set", "class exists", "bean exists"],
+    "answer": "SpEL expression to conditionally create bean"
+  },  {
+    "id": 201,
+    "question": "Which annotation can be used to define multiple cache names for a method?",
+    "options": ["@Cacheable", "@Caching", "@CacheNames", "@MultiCache"],
+    "answer": "@Caching"
+  },
+  {
+    "id": 202,
+    "question": "What does @EnableAsync enable?",
+    "options": ["asynchronous method execution", "REST endpoints", "auto configuration", "JPA auditing"],
+    "answer": "asynchronous method execution"
+  },
+  {
+    "id": 203,
+    "question": "Which annotation defines a REST client interface?",
+    "options": ["@FeignClient", "@RestTemplate", "@WebClient", "@HttpClient"],
+    "answer": "@FeignClient"
+  },
+  {
+    "id": 204,
+    "question": "What does @Transactional(readOnly = true) do?",
+    "options": ["optimizes transaction for read operations", "disables caching", "enables auditing", "runs async"],
+    "answer": "optimizes transaction for read operations"
+  },
+  {
+    "id": 205,
+    "question": "Which annotation is used to execute code on application startup?",
+    "options": ["@PostConstruct", "@EventListener(ApplicationReadyEvent.class)", "@StartupRunner", "@Init"],
+    "answer": "@EventListener(ApplicationReadyEvent.class)"
+  },
+  {
+    "id": 206,
+    "question": "What is the use of @ConfigurationProperties(prefix=\"app\")?",
+    "options": ["binds properties starting with 'app'", "disable bean loading", "enable HTTP/2", "set default profile"],
+    "answer": "binds properties starting with 'app'"
+  },
+  {
+    "id": 207,
+    "question": "Which annotation is used to define a custom scope?",
+    "options": ["@Scope", "@CustomScope", "@DefineScope", "@BeanScope"],
+    "answer": "@Scope"
+  },
+  {
+    "id": 208,
+    "question": "What does @RequestParam do?",
+    "options": ["binds query parameter to method", "binds path variable", "injects bean", "binds JSON body"],
+    "answer": "binds query parameter to method"
+  },
+  {
+    "id": 209,
+    "question": "Which annotation helps declare a method as advice in Spring AOP?",
+    "options": ["@Before", "@Pointcut", "@Around", "@AfterReturning"],
+    "answer": "@Around"
+  },
+  {
+    "id": 210,
+    "question": "Which actuator endpoint exposes all application config properties?",
+    "options": ["/configprops", "/beans", "/metrics", "/health"],
+    "answer": "/configprops"
+  },
+  {
+    "id": 211,
+    "question": "Which annotation is used to enable auto-configuration in Spring Boot?",
+    "options": ["@EnableAutoConfiguration", "@AutoConfigure", "@AutoConfig", "@EnableBoot"],
+    "answer": "@EnableAutoConfiguration"
+  },
+  {
+    "id": 212,
+    "question": "Which annotation allows running the application as a CommandLineRunner?",
+    "options": ["implements CommandLineRunner", "@CommandLine", "@RunCommand", "@AppRunner"],
+    "answer": "implements CommandLineRunner"
+  },
+  {
+    "id": 213,
+    "question": "What does @ConditionalOnMissingBean check?",
+    "options": ["bean is missing in context", "property value", "class presence", "profile is active"],
+    "answer": "bean is missing in context"
+  },
+  {
+    "id": 214,
+    "question": "Which annotation helps define multiple @Bean methods in a single class?",
+    "options": ["@Configuration", "@Component", "@Service", "@BeanConfig"],
+    "answer": "@Configuration"
+  },
+  {
+    "id": 215,
+    "question": "What is the default file name for Spring Boot configuration?",
+    "options": ["application.properties", "config.yml", "spring.yml", "boot-config.json"],
+    "answer": "application.properties"
+  },
+  {
+    "id": 216,
+    "question": "Which annotation is used to specify a qualifier name when multiple beans exist?",
+    "options": ["@Qualifier", "@Primary", "@BeanName", "@Name"],
+    "answer": "@Qualifier"
+  },
+  {
+    "id": 217,
+    "question": "Which annotation creates a singleton-scoped bean by default?",
+    "options": ["@Component", "@Service", "@Repository", "@Controller"],
+    "answer": "@Component"
+  },
+  {
+    "id": 218,
+    "question": "Which annotation is used to send JSON response directly in REST?",
+    "options": ["@ResponseBody", "@RestResponse", "@Body", "@JsonOutput"],
+    "answer": "@ResponseBody"
+  },
+  {
+    "id": 219,
+    "question": "Which annotation helps create a composite conditional check?",
+    "options": ["@Conditional", "@CompositeCondition", "@MultiConditional", "@Conditions"],
+    "answer": "@Conditional"
+  },
+  {
+    "id": 220,
+    "question": "Which annotation helps exclude certain classes from component scanning?",
+    "options": ["@ComponentScan(excludeFilters=...)", "@Exclude", "@SkipComponent", "@RemoveFromScan"],
+    "answer": "@ComponentScan(excludeFilters=...)"
+  },
+  {
+    "id": 221,
+    "question": "Which annotation allows defining a method that runs after dependency injection is done?",
+    "options": ["@PostConstruct", "@Init", "@AfterLoad", "@Setup"],
+    "answer": "@PostConstruct"
+  },
+  {
+    "id": 222,
+    "question": "Which property is used to set the context path of a Spring Boot application?",
+    "options": ["server.servlet.context-path", "spring.context.path", "boot.context.path", "application.context"],
+    "answer": "server.servlet.context-path"
+  },
+  {
+    "id": 223,
+    "question": "Which annotation is used to define REST controllers?",
+    "options": ["@RestController", "@Controller", "@Service", "@Resource"],
+    "answer": "@RestController"
+  },
+  {
+    "id": 224,
+    "question": "Which annotation marks a method parameter to bind a path variable?",
+    "options": ["@PathVariable", "@RequestParam", "@Value", "@RequestBody"],
+    "answer": "@PathVariable"
+  },
+  {
+    "id": 225,
+    "question": "What does the property spring.main.banner-mode=off do?",
+    "options": ["disables Spring Boot startup banner", "disables actuator", "disables logging", "disable caching"],
+    "answer": "disables Spring Boot startup banner"
+  },
+  {
+    "id": 226,
+    "question": "Which annotation is used to mark a method as a pointcut in AOP?",
+    "options": ["@Pointcut", "@Around", "@Before", "@AfterReturning"],
+    "answer": "@Pointcut"
+  },
+  {
+    "id": 227,
+    "question": "What does @Order annotation do in Spring?",
+    "options": ["define execution order", "enable caching", "enable REST", "disable auto config"],
+    "answer": "define execution order"
+  },
+  {
+    "id": 228,
+    "question": "Which annotation is used to handle exceptions across the whole application?",
+    "options": ["@ControllerAdvice", "@RestControllerAdvice", "@ExceptionHandler", "@ErrorAdvice"],
+    "answer": "@ControllerAdvice"
+  },
+  {
+    "id": 229,
+    "question": "Which annotation is meta-annotated with @Component?",
+    "options": ["@Service", "@Repository", "@Controller", "@RestController"],
+    "answer": "@Service"
+  },
+  {
+    "id": 230,
+    "question": "Which annotation enables Spring Boot's support for scheduled tasks?",
+    "options": ["@EnableScheduling", "@ScheduleEnable", "@EnableTasks", "@EnableJobs"],
+    "answer": "@EnableScheduling"
+  },
+  {
+    "id": 231,
+    "question": "Which annotation helps automatically generate constructors in Lombok?",
+    "options": ["@AllArgsConstructor", "@Setter", "@Getter", "@NoArgsConstructor"],
+    "answer": "@AllArgsConstructor"
+  },
+  {
+    "id": 232,
+    "question": "Which annotation in Spring Boot disables auto-configuration for specific classes?",
+    "options": ["@EnableAutoConfiguration(exclude=...)", "@DisableConfig", "@AutoConfigOff", "@ExcludeConfig"],
+    "answer": "@EnableAutoConfiguration(exclude=...)"
+  },
+  {
+    "id": 233,
+    "question": "Which annotation is used to define custom initialization logic after properties are set?",
+    "options": ["@PostConstruct", "@Init", "@Initialize", "@AfterPropertiesSet"],
+    "answer": "@PostConstruct"
+  },
+  {
+    "id": 234,
+    "question": "Which annotation indicates that a bean should not be lazily initialized?",
+    "options": ["@Lazy(false)", "@Eager", "@Immediate", "@ForceLoad"],
+    "answer": "@Lazy(false)"
+  },
+  {
+    "id": 235,
+    "question": "Which property changes the base path for all actuator endpoints?",
+    "options": ["management.endpoints.web.base-path", "spring.actuator.base", "server.actuator.path", "boot.endpoints.base"],
+    "answer": "management.endpoints.web.base-path"
+  },
+  {
+    "id": 236,
+    "question": "Which annotation is used to override default transaction behavior?",
+    "options": ["@Transactional", "@TransactionOverride", "@OverrideTransaction", "@EnableTransaction"],
+    "answer": "@Transactional"
+  },
+  {
+    "id": 237,
+    "question": "What does @SpringBootTest(webEnvironment=WebEnvironment.MOCK) do?",
+    "options": ["creates mock web environment", "starts real server", "disables web tests", "enables caching"],
+    "answer": "creates mock web environment"
+  },
+  {
+    "id": 238,
+    "question": "Which annotation is used to enable scanning of JPA repositories?",
+    "options": ["@EnableJpaRepositories", "@RepositoryScan", "@JpaEnable", "@EnableRepositories"],
+    "answer": "@EnableJpaRepositories"
+  },
+  {
+    "id": 239,
+    "question": "Which annotation is used to create a scheduled task?",
+    "options": ["@Scheduled", "@Task", "@ScheduleJob", "@EnableTask"],
+    "answer": "@Scheduled"
+  },
+  {
+    "id": 240,
+    "question": "Which annotation is used to create an HTTP GET endpoint?",
+    "options": ["@GetMapping", "@PostMapping", "@PutMapping", "@DeleteMapping"],
+    "answer": "@GetMapping"
+  }
 ]
