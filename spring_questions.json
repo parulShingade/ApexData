@@ -118,7 +118,7 @@
     "question": "Which annotation is used to scan components?",
     "options": ["@ComponentScan", "@EnableScan", "@BeanScan", "@EntityScan"],
     "answer": "@ComponentScan"
-  }
+  },
    {
     "id": 121,
     "question": "Which annotation is used to auto-configure a Spring Boot test for web layer only?",
