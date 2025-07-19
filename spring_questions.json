@@ -118,6 +118,605 @@
     "question": "Which annotation is used to scan components?",
     "options": ["@ComponentScan", "@EnableScan", "@BeanScan", "@EntityScan"],
     "answer": "@ComponentScan"
+  },{
+    "id": 21,
+    "question": "Which annotation conditionally creates a bean only if missing?",
+    "options": ["@ConditionalOnMissingBean", "@ConditionalOnProperty", "@Lazy", "@Primary"],
+    "answer": "@ConditionalOnMissingBean"
+  },
+  {
+    "id": 22,
+    "question": "What does @EnableAutoConfiguration do?",
+    "options": ["auto-configures beans", "starts Tomcat", "writes logs", "disables caching"],
+    "answer": "auto-configures beans"
+  },
+  {
+    "id": 23,
+    "question": "What is a custom Spring Boot starter?",
+    "options": ["pre-configured dependency module", "logging file", "static HTML page", "external JAR"],
+    "answer": "pre-configured dependency module"
+  },
+  {
+    "id": 24,
+    "question": "Which actuator endpoint lists all Spring beans?",
+    "options": ["/beans", "/health", "/metrics", "/mappings"],
+    "answer": "/beans"
+  },
+  {
+    "id": 25,
+    "question": "How to enable HTTPS in Spring Boot?",
+    "options": ["add keystore", "change pom.xml", "remove Actuator", "disable devtools"],
+    "answer": "add keystore"
+  },
+  {
+    "id": 26,
+    "question": "What annotation is used for caching support?",
+    "options": ["@EnableCaching", "@EnableScan", "@Cacheable", "@EnableLazy"],
+    "answer": "@EnableCaching"
+  },
+  {
+    "id": 27,
+    "question": "What does @SpringBootTest load?",
+    "options": ["full application context", "only controllers", "only JPA config", "only profiles"],
+    "answer": "full application context"
+  },
+  {
+    "id": 28,
+    "question": "Which dependency adds Spring Security defaults?",
+    "options": ["spring-boot-starter-security", "spring-boot-starter-web", "spring-boot-starter-cache", "spring-boot-starter-actuator"],
+    "answer": "spring-boot-starter-security"
+  },
+  {
+    "id": 29,
+    "question": "What does @Lazy do?",
+    "options": ["delays bean initialization", "removes bean", "disables auto config", "overrides property"],
+    "answer": "delays bean initialization"
+  },
+  {
+    "id": 30,
+    "question": "What does @Primary do?",
+    "options": ["mark default bean", "delete other beans", "disable caching", "log warnings"],
+    "answer": "mark default bean"
+  },
+  {
+    "id": 31,
+    "question": "How to override default Spring Boot banner?",
+    "options": ["add banner.txt", "edit pom.xml", "use @Banner", "modify logback.xml"],
+    "answer": "add banner.txt"
+  },
+  {
+    "id": 32,
+    "question": "Which file disables a Spring profile?",
+    "options": ["application.properties", "pom.xml", "README.md", "MANIFEST.MF"],
+    "answer": "application.properties"
+  },
+  {
+    "id": 33,
+    "question": "Which starter is used for template engines like Thymeleaf?",
+    "options": ["spring-boot-starter-thymeleaf", "spring-boot-starter-data-jpa", "spring-boot-starter-test", "spring-boot-starter-mail"],
+    "answer": "spring-boot-starter-thymeleaf"
+  },
+  {
+    "id": 34,
+    "question": "What does @RestController combine?",
+    "options": ["@Controller and @ResponseBody", "@Service and @Component", "@RequestMapping and @Bean", "@Entity and @Id"],
+    "answer": "@Controller and @ResponseBody"
+  },
+  {
+    "id": 35,
+    "question": "Which annotation injects a bean by type?",
+    "options": ["@Autowired", "@Value", "@PropertySource", "@Qualifier"],
+    "answer": "@Autowired"
+  },
+  {
+    "id": 36,
+    "question": "Which annotation creates REST API methods in interface projections?",
+    "options": ["@RepositoryRestResource", "@Component", "@Service", "@EnableWebMvc"],
+    "answer": "@RepositoryRestResource"
+  },
+  {
+    "id": 37,
+    "question": "What is the default scope of a Spring bean?",
+    "options": ["singleton", "prototype", "request", "session"],
+    "answer": "singleton"
+  },
+  {
+    "id": 38,
+    "question": "Which method is used to run the Spring Boot app?",
+    "options": ["SpringApplication.run()", "SpringBoot.run()", "App.run()", "BootApp.start()"],
+    "answer": "SpringApplication.run()"
+  },
+  {
+    "id": 39,
+    "question": "Which annotation provides advice on controller methods?",
+    "options": ["@ControllerAdvice", "@RestController", "@EnableAspectJAutoProxy", "@PostMapping"],
+    "answer": "@ControllerAdvice"
+  },
+  {
+    "id": 40,
+    "question": "How do you configure multiple datasources in Spring Boot?",
+    "options": ["define multiple configs", "edit web.xml", "disable auto config", "rename pom.xml"],
+    "answer": "define multiple configs"
+  },
+   {
+    "id": 41,
+    "question": "Which annotation allows defining default configuration for tests?",
+    "options": ["@TestConfiguration", "@SpringTest", "@TestConfig", "@EnableTest"],
+    "answer": "@TestConfiguration"
+  },
+  {
+    "id": 42,
+    "question": "What is the purpose of @EnableConfigurationProperties?",
+    "options": ["bind properties to bean", "disable profiles", "enable logging", "override beans"],
+    "answer": "bind properties to bean"
+  },
+  {
+    "id": 43,
+    "question": "Which annotation marks a class as an aspect?",
+    "options": ["@Aspect", "@Advice", "@ControllerAdvice", "@Aop"],
+    "answer": "@Aspect"
+  },
+  {
+    "id": 44,
+    "question": "What does @ConditionalOnClass check?",
+    "options": ["class exists on classpath", "bean is singleton", "field is final", "property is missing"],
+    "answer": "class exists on classpath"
+  },
+  {
+    "id": 45,
+    "question": "What does @Repository annotation do?",
+    "options": ["marks DAO class", "adds logging", "starts Tomcat", "run in background"],
+    "answer": "marks DAO class"
+  },
+  {
+    "id": 46,
+    "question": "What is Spring Boot Admin used for?",
+    "options": ["monitor apps", "build REST API", "test microservices", "replace Actuator"],
+    "answer": "monitor apps"
+  },
+  {
+    "id": 47,
+    "question": "Which method disables banner in console?",
+    "options": ["setBannerMode(OFF)", "disableBanner()", "turnOffBanner()", "removeBanner()"],
+    "answer": "setBannerMode(OFF)"
+  },
+  {
+    "id": 48,
+    "question": "What is the default port for management endpoints?",
+    "options": ["8080", "8081", "9999", "80"],
+    "answer": "8080"
+  },
+  {
+    "id": 49,
+    "question": "Which starter is used for asynchronous processing?",
+    "options": ["spring-boot-starter-web", "spring-boot-starter-cache", "spring-boot-starter-aop", "spring-boot-starter-amqp"],
+    "answer": "spring-boot-starter-aop"
+  },
+  {
+    "id": 50,
+    "question": "What does @SpringBootConfiguration do?",
+    "options": ["declares configuration class", "starts server", "scan all beans", "disable profiles"],
+    "answer": "declares configuration class"
+  },
+  {
+    "id": 51,
+    "question": "What is Flyway used for in Spring Boot?",
+    "options": ["database migration", "logging", "REST docs", "cloud config"],
+    "answer": "database migration"
+  },
+  {
+    "id": 52,
+    "question": "Which dependency adds reactive support?",
+    "options": ["spring-boot-starter-webflux", "spring-boot-starter-jdbc", "spring-boot-starter-mail", "spring-boot-starter-aop"],
+    "answer": "spring-boot-starter-webflux"
+  },
+  {
+    "id": 53,
+    "question": "Which property disables all actuator endpoints?",
+    "options": ["management.endpoints.enabled=false", "disable.actuator=true", "actuator.off=true", "management.enabled=false"],
+    "answer": "management.endpoints.enabled=false"
+  },
+  {
+    "id": 54,
+    "question": "What does @RequestMapping do?",
+    "options": ["maps HTTP requests", "creates bean", "add caching", "disable profile"],
+    "answer": "maps HTTP requests"
+  },
+  {
+    "id": 55,
+    "question": "Which annotation is used to specify an HTTP GET handler?",
+    "options": ["@GetMapping", "@RequestBody", "@PostMapping", "@PutMapping"],
+    "answer": "@GetMapping"
+  },
+  {
+    "id": 56,
+    "question": "How do you expose actuator endpoints over HTTP?",
+    "options": ["management.endpoints.web.exposure.include", "actuator.http=true", "expose.actuator=true", "web.actuator=true"],
+    "answer": "management.endpoints.web.exposure.include"
+  },
+  {
+    "id": 57,
+    "question": "Which annotation is used to bind request body to method parameter?",
+    "options": ["@RequestBody", "@PathVariable", "@RequestParam", "@RequestMapping"],
+    "answer": "@RequestBody"
+  },
+  {
+    "id": 58,
+    "question": "What does @Bean method return?",
+    "options": ["a Spring bean", "a static method", "a profile name", "null always"],
+    "answer": "a Spring bean"
+  },
+  {
+    "id": 59,
+    "question": "Which annotation injects value from application.properties?",
+    "options": ["@Value", "@Property", "@InjectProperty", "@Autowired"],
+    "answer": "@Value"
+  },
+  {
+    "id": 60,
+    "question": "Which property changes the server port?",
+    "options": ["server.port", "spring.port", "tomcat.port", "web.port"],
+    "answer": "server.port"
+  },
+  {
+    "id": 61,
+    "question": "Which starter adds support for scheduling tasks?",
+    "options": ["spring-boot-starter", "spring-boot-starter-web", "spring-boot-starter-cache", "spring-boot-starter-quartz"],
+    "answer": "spring-boot-starter-quartz"
+  },
+  {
+    "id": 62,
+    "question": "What is the purpose of @ComponentScan?",
+    "options": ["scan for Spring components", "disable beans", "configure Tomcat", "set profiles"],
+    "answer": "scan for Spring components"
+  },
+  {
+    "id": 63,
+    "question": "Which file holds externalized configuration in Spring Boot?",
+    "options": ["application.properties", "pom.xml", "beans.xml", "web.xml"],
+    "answer": "application.properties"
+  },
+  {
+    "id": 64,
+    "question": "Which annotation is used to create REST client interfaces?",
+    "options": ["@FeignClient", "@RestTemplate", "@RestController", "@EnableWebMvc"],
+    "answer": "@FeignClient"
+  },
+  {
+    "id": 65,
+    "question": "What does @RequestParam do?",
+    "options": ["binds query parameter", "maps URL path", "enables caching", "scan beans"],
+    "answer": "binds query parameter"
+  },
+  {
+    "id": 66,
+    "question": "Which annotation maps a URL path variable to method parameter?",
+    "options": ["@PathVariable", "@RequestParam", "@RequestBody", "@ModelAttribute"],
+    "answer": "@PathVariable"
+  },
+  {
+    "id": 67,
+    "question": "Which annotation is used for cross-origin requests?",
+    "options": ["@CrossOrigin", "@RequestCross", "@AllowOrigin", "@EnableCors"],
+    "answer": "@CrossOrigin"
+  },
+  {
+    "id": 68,
+    "question": "What does @EnableAsync enable?",
+    "options": ["asynchronous method execution", "REST docs", "security", "profiles"],
+    "answer": "asynchronous method execution"
+  },
+  {
+    "id": 69,
+    "question": "Which annotation marks a scheduled task?",
+    "options": ["@Scheduled", "@Async", "@Timer", "@Repeat"],
+    "answer": "@Scheduled"
+  },
+  {
+    "id": 70,
+    "question": "Which annotation combines @ResponseBody with @Controller?",
+    "options": ["@RestController", "@ControllerAdvice", "@Service", "@Configuration"],
+    "answer": "@RestController"
+  },
+  {
+    "id": 71,
+    "question": "Which property sets maximum file upload size?",
+    "options": ["spring.servlet.multipart.max-file-size", "spring.upload.limit", "server.upload.max", "file.max.upload"],
+    "answer": "spring.servlet.multipart.max-file-size"
+  },
+  {
+    "id": 72,
+    "question": "Which annotation defines advice for exceptions globally?",
+    "options": ["@ControllerAdvice", "@RestController", "@Aspect", "@RepositoryAdvice"],
+    "answer": "@ControllerAdvice"
+  },
+  {
+    "id": 73,
+    "question": "Which annotation declares a test configuration class?",
+    "options": ["@TestConfiguration", "@SpringBootTest", "@MockBean", "@DataJpaTest"],
+    "answer": "@TestConfiguration"
+  },
+  {
+    "id": 74,
+    "question": "What is @SpringBootTest used for?",
+    "options": ["load full context for test", "disable beans", "enable caching", "override application.yml"],
+    "answer": "load full context for test"
+  },
+  {
+    "id": 75,
+    "question": "What does actuator /mappings endpoint show?",
+    "options": ["all URL mappings", "only health", "active profiles", "JVM info"],
+    "answer": "all URL mappings"
+  },
+  {
+    "id": 76,
+    "question": "Which annotation auto-detects a repository class?",
+    "options": ["@Repository", "@Service", "@Controller", "@Configuration"],
+    "answer": "@Repository"
+  },
+  {
+    "id": 77,
+    "question": "What is the purpose of @Qualifier?",
+    "options": ["specify bean name to inject", "disable auto config", "scan all beans", "run test faster"],
+    "answer": "specify bean name to inject"
+  },
+  {
+    "id": 78,
+    "question": "Which starter adds AMQP messaging support?",
+    "options": ["spring-boot-starter-amqp", "spring-boot-starter-data-jpa", "spring-boot-starter-websocket", "spring-boot-starter-web"],
+    "answer": "spring-boot-starter-amqp"
+  },
+  {
+    "id": 79,
+    "question": "Which annotation is used to define a custom error handler?",
+    "options": ["@ControllerAdvice", "@ExceptionHandler", "@RestController", "@ErrorHandler"],
+    "answer": "@ExceptionHandler"
+  },
+  {
+    "id": 80,
+    "question": "Which annotation marks the main Spring Boot application class?",
+    "options": ["@SpringBootApplication", "@MainApp", "@Configuration", "@EnableAutoConfiguration"],
+    "answer": "@SpringBootApplication"
+  },
+    {
+    "id": 81,
+    "question": "Which starter adds WebSocket support?",
+    "options": ["spring-boot-starter-websocket", "spring-boot-starter-aop", "spring-boot-starter-data-redis", "spring-boot-starter-mail"],
+    "answer": "spring-boot-starter-websocket"
+  },
+  {
+    "id": 82,
+    "question": "Which annotation is used to create a filter bean?",
+    "options": ["@Bean", "@Filter", "@EnableFilter", "@FilterBean"],
+    "answer": "@Bean"
+  },
+  {
+    "id": 83,
+    "question": "What does @Value annotation do?",
+    "options": ["injects property value", "scan packages", "disable beans", "create profile"],
+    "answer": "injects property value"
+  },
+  {
+    "id": 84,
+    "question": "Which annotation marks a field as optional for dependency injection?",
+    "options": ["@Autowired(required=false)", "@Optional", "@Nullable", "@InjectOptional"],
+    "answer": "@Autowired(required=false)"
+  },
+  {
+    "id": 85,
+    "question": "What does @Configuration mark?",
+    "options": ["class that defines beans", "REST controller", "repository", "test config only"],
+    "answer": "class that defines beans"
+  },
+  {
+    "id": 86,
+    "question": "Which annotation is used to create REST API endpoints?",
+    "options": ["@RestController", "@Service", "@Component", "@Entity"],
+    "answer": "@RestController"
+  },
+  {
+    "id": 87,
+    "question": "Which property sets context path?",
+    "options": ["server.servlet.context-path", "server.context.path", "spring.context-path", "app.path"],
+    "answer": "server.servlet.context-path"
+  },
+  {
+    "id": 88,
+    "question": "What does @RequestBody do?",
+    "options": ["binds HTTP request body", "binds query param", "adds caching", "marks bean as primary"],
+    "answer": "binds HTTP request body"
+  },
+  {
+    "id": 89,
+    "question": "What is the default logging framework in Spring Boot?",
+    "options": ["Logback", "Log4j", "JUL", "Commons Logging"],
+    "answer": "Logback"
+  },
+  {
+    "id": 90,
+    "question": "Which annotation helps to mock a bean in tests?",
+    "options": ["@MockBean", "@Autowired", "@Spy", "@FakeBean"],
+    "answer": "@MockBean"
+  },
+  {
+    "id": 91,
+    "question": "What does @ConditionalOnProperty do?",
+    "options": ["create bean if property set", "disable all beans", "run async", "enable caching"],
+    "answer": "create bean if property set"
+  },
+  {
+    "id": 92,
+    "question": "Which endpoint shows active Spring profiles?",
+    "options": ["/env", "/health", "/metrics", "/beans"],
+    "answer": "/env"
+  },
+  {
+    "id": 93,
+    "question": "Which annotation maps HTTP POST requests?",
+    "options": ["@PostMapping", "@PutMapping", "@DeleteMapping", "@GetMapping"],
+    "answer": "@PostMapping"
+  },
+  {
+    "id": 94,
+    "question": "What does @ResponseStatus do?",
+    "options": ["sets HTTP response status", "scan controllers", "log request", "enable CORS"],
+    "answer": "sets HTTP response status"
+  },
+  {
+    "id": 95,
+    "question": "Which annotation is used for field validation?",
+    "options": ["@Valid", "@Verify", "@Check", "@FieldValidation"],
+    "answer": "@Valid"
+  },
+  {
+    "id": 96,
+    "question": "What does Spring Boot DevTools provide?",
+    "options": ["auto-restart & live reload", "disable caching", "enable HTTPS", "production metrics only"],
+    "answer": "auto-restart & live reload"
+  },
+  {
+    "id": 97,
+    "question": "What annotation runs code after the application starts?",
+    "options": ["@EventListener(ApplicationReadyEvent.class)", "@OnStart", "@RunAfter", "@StartupHook"],
+    "answer": "@EventListener(ApplicationReadyEvent.class)"
+  },
+  {
+    "id": 98,
+    "question": "What does @Bean(name=\"myBean\") do?",
+    "options": ["define custom bean name", "disable bean", "start web server", "override controller"],
+    "answer": "define custom bean name"
+  },
+  {
+    "id": 99,
+    "question": "What is the default port for embedded Tomcat in Spring Boot?",
+    "options": ["8080", "9090", "8443", "80"],
+    "answer": "8080"
+  },
+  {
+    "id": 100,
+    "question": "Which annotation injects the currently authenticated user?",
+    "options": ["@AuthenticationPrincipal", "@CurrentUser", "@User", "@Auth"],
+    "answer": "@AuthenticationPrincipal"
+  },
+    {
+    "id": 101,
+    "question": "Which annotation marks a method to be executed after bean construction?",
+    "options": ["@PostConstruct", "@AfterBean", "@Init", "@StartUp"],
+    "answer": "@PostConstruct"
+  },
+  {
+    "id": 102,
+    "question": "Which annotation injects a list of beans of a given type?",
+    "options": ["@Autowired", "@Value", "@InjectList", "@Qualifier"],
+    "answer": "@Autowired"
+  },
+  {
+    "id": 103,
+    "question": "Which annotation enables JPA repositories?",
+    "options": ["@EnableJpaRepositories", "@EnableJPA", "@RepositoryScan", "@EntityScan"],
+    "answer": "@EnableJpaRepositories"
+  },
+  {
+    "id": 104,
+    "question": "Which property sets actuator endpoint base path?",
+    "options": ["management.endpoints.web.base-path", "actuator.base-path", "server.actuator.path", "management.actuator.path"],
+    "answer": "management.endpoints.web.base-path"
+  },
+  {
+    "id": 105,
+    "question": "What does @Profile annotation do?",
+    "options": ["enables bean for specific profiles", "logs user actions", "create REST API", "override properties"],
+    "answer": "enables bean for specific profiles"
+  },
+  {
+    "id": 106,
+    "question": "What is the default packaging type for Spring Boot Maven project?",
+    "options": ["jar", "war", "ear", "zip"],
+    "answer": "jar"
+  },
+  {
+    "id": 107,
+    "question": "What does @ConditionalOnMissingBean do?",
+    "options": ["create bean if not present", "always remove bean", "disable auto config", "scan all packages"],
+    "answer": "create bean if not present"
+  },
+  {
+    "id": 108,
+    "question": "What does @ConditionalOnClass do?",
+    "options": ["create bean if class exists", "disable caching", "run test faster", "log error"],
+    "answer": "create bean if class exists"
+  },
+  {
+    "id": 109,
+    "question": "Which annotation helps validate incoming request data?",
+    "options": ["@Valid", "@ValidateRequest", "@Checked", "@SafeInput"],
+    "answer": "@Valid"
+  },
+  {
+    "id": 110,
+    "question": "What does @Transactional do?",
+    "options": ["manage transactions", "enable caching", "run async", "create test config"],
+    "answer": "manage transactions"
+  },
+  {
+    "id": 111,
+    "question": "Which annotation loads application context for tests?",
+    "options": ["@SpringBootTest", "@DataJpaTest", "@WebMvcTest", "@MockBean"],
+    "answer": "@SpringBootTest"
+  },
+  {
+    "id": 112,
+    "question": "What is the parent of all Spring Boot starters?",
+    "options": ["spring-boot-starter-parent", "spring-boot-starter-core", "starter-base", "boot-parent"],
+    "answer": "spring-boot-starter-parent"
+  },
+  {
+    "id": 113,
+    "question": "Which annotation injects environment-specific properties?",
+    "options": ["@Value", "@PropertySource", "@Env", "@ConfigValue"],
+    "answer": "@Value"
+  },
+  {
+    "id": 114,
+    "question": "What does @EnableTransactionManagement enable?",
+    "options": ["declarative transaction support", "asynchronous calls", "web security", "database caching"],
+    "answer": "declarative transaction support"
+  },
+  {
+    "id": 115,
+    "question": "What is @Configuration meta-annotated with?",
+    "options": ["@Component", "@RestController", "@EnableCaching", "@Entity"],
+    "answer": "@Component"
+  },
+  {
+    "id": 116,
+    "question": "What does actuator /health endpoint show?",
+    "options": ["application health status", "all URL mappings", "JVM threads", "active profiles"],
+    "answer": "application health status"
+  },
+  {
+    "id": 117,
+    "question": "Which annotation is used for mapping HTTP PUT requests?",
+    "options": ["@PutMapping", "@PostMapping", "@GetMapping", "@PatchMapping"],
+    "answer": "@PutMapping"
+  },
+  {
+    "id": 118,
+    "question": "What does @PropertySource do?",
+    "options": ["load external properties file", "disable auto config", "enable caching", "inject default bean"],
+    "answer": "load external properties file"
+  },
+  {
+    "id": 119,
+    "question": "Which starter is used for sending emails?",
+    "options": ["spring-boot-starter-mail", "spring-boot-starter-amqp", "spring-boot-starter-aop", "spring-boot-starter-cache"],
+    "answer": "spring-boot-starter-mail"
+  },
+  {
+    "id": 120,
+    "question": "What is Spring Boot CLI used for?",
+    "options": ["run Groovy scripts", "start Tomcat", "debug logs", "monitor metrics"],
+    "answer": "run Groovy scripts"
   },
    {
     "id": 121,
